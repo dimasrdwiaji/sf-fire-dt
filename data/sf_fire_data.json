@@ -1,0 +1,3735 @@
+[
+    {
+        "incident_number": "25011415",
+        "incident_date": "2025-01-22T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.410634,
+                37.787167
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "20000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25012913",
+        "incident_date": "2025-01-24T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.397038,
+                37.731735
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "42"
+    },
+    {
+        "incident_number": "25013040",
+        "incident_date": "2025-01-25T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.418811,
+                37.798437
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "200000",
+        "number_of_alarms": "1",
+        "station_area": "41"
+    },
+    {
+        "incident_number": "25014016",
+        "incident_date": "2025-01-26T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.414155,
+                37.78285
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25017183",
+        "incident_date": "2025-02-01T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.403878,
+                37.790423
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "20000",
+        "number_of_alarms": "1",
+        "station_area": "13"
+    },
+    {
+        "incident_number": "25018166",
+        "incident_date": "2025-02-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.467334,
+                37.762053
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "22"
+    },
+    {
+        "incident_number": "25018318",
+        "incident_date": "2025-02-04T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.418823,
+                37.783411
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "500",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25018522",
+        "incident_date": "2025-02-04T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.454209,
+                37.774745
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "25000",
+        "number_of_alarms": "1",
+        "station_area": "21"
+    },
+    {
+        "incident_number": "25019520",
+        "incident_date": "2025-02-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.413311,
+                37.785816
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "500",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25020588",
+        "incident_date": "2025-02-07T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.412074,
+                37.782645
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "2000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25020234",
+        "incident_date": "2025-02-07T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.44315,
+                37.708455
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "20000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
+        "incident_number": "25021719",
+        "incident_date": "2025-02-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.420116,
+                37.768972
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "2",
+        "station_area": "06"
+    },
+    {
+        "incident_number": "25021535",
+        "incident_date": "2025-02-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.459179,
+                37.71324
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "33"
+    },
+    {
+        "incident_number": "25022245",
+        "incident_date": "2025-02-10T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.409656,
+                37.780127
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25021907",
+        "incident_date": "2025-02-10T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.421301,
+                37.757903
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25023574",
+        "incident_date": "2025-02-13T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.459641,
+                37.748844
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "2500",
+        "number_of_alarms": "1",
+        "station_area": "39"
+    },
+    {
+        "incident_number": "25024841",
+        "incident_date": "2025-02-15T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419725,
+                37.783297
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "8000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25026019",
+        "incident_date": "2025-02-17T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.452314,
+                37.773074
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "21"
+    },
+    {
+        "incident_number": "25026394",
+        "incident_date": "2025-02-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.439803,
+                37.728868
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "125000",
+        "number_of_alarms": "1",
+        "station_area": "15"
+    },
+    {
+        "incident_number": "25026309",
+        "incident_date": "2025-02-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.415015,
+                37.748313
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "11"
+    },
+    {
+        "incident_number": "25028453",
+        "incident_date": "2025-02-22T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.451091,
+                37.781404
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "250000",
+        "number_of_alarms": "1",
+        "station_area": "10"
+    },
+    {
+        "incident_number": "25028913",
+        "incident_date": "2025-02-23T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.411256,
+                37.781377
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25029410",
+        "incident_date": "2025-02-24T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.412599,
+                37.808546
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "28"
+    },
+    {
+        "incident_number": "25029555",
+        "incident_date": "2025-02-24T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.388643,
+                37.76275
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "04"
+    },
+    {
+        "incident_number": "25030164",
+        "incident_date": "2025-02-25T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "150000",
+        "number_of_alarms": "1",
+        "station_area": "17"
+    },
+    {
+        "incident_number": "25032086",
+        "incident_date": "2025-03-01T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.41416,
+                37.781992
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25032935",
+        "incident_date": "2025-03-02T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419359,
+                37.757077
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25032888",
+        "incident_date": "2025-03-02T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.408369,
+                37.745313
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "09"
+    },
+    {
+        "incident_number": "25033263",
+        "incident_date": "2025-03-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.401592,
+                37.774231
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "number_of_alarms": "1",
+        "station_area": "08"
+    },
+    {
+        "incident_number": "25033603",
+        "incident_date": "2025-03-04T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.494041,
+                37.760772
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "18"
+    },
+    {
+        "incident_number": "25033931",
+        "incident_date": "2025-03-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.474809,
+                37.731624
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "70000",
+        "number_of_alarms": "1",
+        "station_area": "19"
+    },
+    {
+        "incident_number": "25035731",
+        "incident_date": "2025-03-08T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.437687,
+                37.714966
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
+        "incident_number": "25035454",
+        "incident_date": "2025-03-08T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.480979,
+                37.773917
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "1200000",
+        "number_of_alarms": "1",
+        "station_area": "14"
+    },
+    {
+        "incident_number": "25036328",
+        "incident_date": "2025-03-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.401194,
+                37.75966
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "800000",
+        "number_of_alarms": "1",
+        "station_area": "37"
+    },
+    {
+        "incident_number": "25037352",
+        "incident_date": "2025-03-11T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.50294,
+                37.777981
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "34"
+    },
+    {
+        "incident_number": "25037731",
+        "incident_date": "2025-03-12T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.428525,
+                37.783276
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "720000",
+        "number_of_alarms": "1",
+        "station_area": "05"
+    },
+    {
+        "incident_number": "25038081",
+        "incident_date": "2025-03-13T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.459491,
+                37.78459
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "20000",
+        "number_of_alarms": "1",
+        "station_area": "10"
+    },
+    {
+        "incident_number": "25039702",
+        "incident_date": "2025-03-16T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.502935,
+                37.777908
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "34"
+    },
+    {
+        "incident_number": "25040389",
+        "incident_date": "2025-03-17T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.409608,
+                37.784029
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25040805",
+        "incident_date": "2025-03-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.410634,
+                37.787167
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "40000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25040775",
+        "incident_date": "2025-03-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.413311,
+                37.785816
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25041846",
+        "incident_date": "2025-03-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.428735,
+                37.719598
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "42000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
+        "incident_number": "25041571",
+        "incident_date": "2025-03-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.413786,
+                37.787461
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "200",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25043959",
+        "incident_date": "2025-03-24T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.43564,
+                37.797388
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "16"
+    },
+    {
+        "incident_number": "25044311",
+        "incident_date": "2025-03-25T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.42139,
+                37.756151
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "250000",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25044964",
+        "incident_date": "2025-03-26T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.411464,
+                37.776432
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "0",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25044979",
+        "incident_date": "2025-03-26T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.45618,
+                37.755361
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "40000",
+        "number_of_alarms": "1",
+        "station_area": "20"
+    },
+    {
+        "incident_number": "25045521",
+        "incident_date": "2025-03-27T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.41222,
+                37.776516
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25045151",
+        "incident_date": "2025-03-27T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.407894,
+                37.779257
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25048769",
+        "incident_date": "2025-04-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.400824,
+                37.715859
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "44"
+    },
+    {
+        "incident_number": "25048462",
+        "incident_date": "2025-04-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.407364,
+                37.780208
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25048849",
+        "incident_date": "2025-04-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419828,
+                37.7658
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "0",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25049574",
+        "incident_date": "2025-04-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.429641,
+                37.780746
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "05"
+    },
+    {
+        "incident_number": "25049920",
+        "incident_date": "2025-04-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419582,
+                37.793465
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "2500000",
+        "number_of_alarms": "4",
+        "station_area": "41"
+    },
+    {
+        "incident_number": "25049920",
+        "incident_date": "2025-04-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419582,
+                37.793465
+            ]
+        },
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "2500000",
+        "number_of_alarms": "4",
+        "station_area": "41"
+    },
+    {
+        "incident_number": "25051374",
+        "incident_date": "2025-04-08T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.466098,
+                37.780866
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "31"
+    },
+    {
+        "incident_number": "25051710",
+        "incident_date": "2025-04-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.392562,
+                37.750925
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "25"
+    },
+    {
+        "incident_number": "25051789",
+        "incident_date": "2025-04-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.435533,
+                37.713999
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "25000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
+        "incident_number": "25052657",
+        "incident_date": "2025-04-11T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419629,
+                37.763705
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25055056",
+        "incident_date": "2025-04-15T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.425671,
+                37.73774
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "750000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
+        "incident_number": "25055231",
+        "incident_date": "2025-04-16T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.444559,
+                37.770378
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "150000",
+        "number_of_alarms": "1",
+        "station_area": "21"
+    },
+    {
+        "incident_number": "25055638",
+        "incident_date": "2025-04-17T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.408249,
+                37.765671
+            ]
+        },
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "0",
+        "number_of_alarms": "1",
+        "station_area": "29"
+    },
+    {
+        "incident_number": "25057336",
+        "incident_date": "2025-04-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.414604,
+                37.783897
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "500",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25057488",
+        "incident_date": "2025-04-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.48081,
+                37.782269
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "20000",
+        "number_of_alarms": "1",
+        "station_area": "14"
+    },
+    {
+        "incident_number": "25057376",
+        "incident_date": "2025-04-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.413815,
+                37.786571
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25057243",
+        "incident_date": "2025-04-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.446794,
+                37.791745
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "0",
+        "number_of_alarms": "1",
+        "station_area": "10"
+    },
+    {
+        "incident_number": "25057645",
+        "incident_date": "2025-04-21T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.420095,
+                37.773019
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25058091",
+        "incident_date": "2025-04-21T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.402608,
+                37.779874
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25058752",
+        "incident_date": "2025-04-23T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.413644,
+                37.784092
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25059479",
+        "incident_date": "2025-04-24T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.46798,
+                37.740897
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "40000",
+        "number_of_alarms": "1",
+        "station_area": "39"
+    },
+    {
+        "incident_number": "25059885",
+        "incident_date": "2025-04-25T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.413245,
+                37.784877
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "80000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25060336",
+        "incident_date": "2025-04-26T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.397166,
+                37.780179
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "08"
+    },
+    {
+        "incident_number": "25060768",
+        "incident_date": "2025-04-27T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.484927,
+                37.753409
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "18"
+    },
+    {
+        "incident_number": "25060818",
+        "incident_date": "2025-04-27T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.481496,
+                37.781103
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "14"
+    },
+    {
+        "incident_number": "25061134",
+        "incident_date": "2025-04-28T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.413597,
+                37.782782
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25061705",
+        "incident_date": "2025-04-29T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.391276,
+                37.73682
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "200000",
+        "number_of_alarms": "1",
+        "station_area": "17"
+    },
+    {
+        "incident_number": "25062954",
+        "incident_date": "2025-05-01T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.420116,
+                37.768972
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "06"
+    },
+    {
+        "incident_number": "25063751",
+        "incident_date": "2025-05-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.414203,
+                37.752806
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "45000",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25064436",
+        "incident_date": "2025-05-04T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.489589,
+                37.753593
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "150000",
+        "number_of_alarms": "1",
+        "station_area": "18"
+    },
+    {
+        "incident_number": "25064692",
+        "incident_date": "2025-05-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.48506,
+                37.752838
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "20000",
+        "number_of_alarms": "1",
+        "station_area": "40"
+    },
+    {
+        "incident_number": "25065191",
+        "incident_date": "2025-05-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.384597,
+                37.745945
+            ]
+        },
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "25"
+    },
+    {
+        "incident_number": "25065415",
+        "incident_date": "2025-05-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.431817,
+                37.751727
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "2500",
+        "number_of_alarms": "1",
+        "station_area": "11"
+    },
+    {
+        "incident_number": "25065587",
+        "incident_date": "2025-05-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.508132,
+                37.780776
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "34"
+    },
+    {
+        "incident_number": "25067246",
+        "incident_date": "2025-05-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.457451,
+                37.778084
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "20000",
+        "number_of_alarms": "1",
+        "station_area": "31"
+    },
+    {
+        "incident_number": "25067282",
+        "incident_date": "2025-05-10T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.411901,
+                37.785047
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25067546",
+        "incident_date": "2025-05-10T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.423618,
+                37.738632
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
+        "incident_number": "25067583",
+        "incident_date": "2025-05-10T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.408955,
+                37.750023
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "250000",
+        "number_of_alarms": "1",
+        "station_area": "09"
+    },
+    {
+        "incident_number": "25068132",
+        "incident_date": "2025-05-11T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.375106,
+                37.730487
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "2000",
+        "number_of_alarms": "1",
+        "station_area": "17"
+    },
+    {
+        "incident_number": "25068173",
+        "incident_date": "2025-05-12T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.427776,
+                37.77299
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "0",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25068843",
+        "incident_date": "2025-05-13T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.491971,
+                37.743994
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "1500",
+        "number_of_alarms": "1",
+        "station_area": "18"
+    },
+    {
+        "incident_number": "25069483",
+        "incident_date": "2025-05-14T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.395766,
+                37.756781
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "37"
+    },
+    {
+        "incident_number": "25069611",
+        "incident_date": "2025-05-15T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.467325,
+                37.764382
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "22"
+    },
+    {
+        "incident_number": "25071470",
+        "incident_date": "2025-05-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.400701,
+                37.781752
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "3000",
+        "number_of_alarms": "2",
+        "station_area": "35"
+    },
+    {
+        "incident_number": "25071241",
+        "incident_date": "2025-05-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419515,
+                37.788731
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "200",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25071164",
+        "incident_date": "2025-05-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.374541,
+                37.829789
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "1",
+        "station_area": "48"
+    },
+    {
+        "incident_number": "25071999",
+        "incident_date": "2025-05-19T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.434112,
+                37.72264
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "45000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
+        "incident_number": "25071645",
+        "incident_date": "2025-05-19T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.434101,
+                37.748008
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "750000",
+        "number_of_alarms": "1",
+        "station_area": "11"
+    },
+    {
+        "incident_number": "25072244",
+        "incident_date": "2025-05-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.429176,
+                37.769033
+            ]
+        },
+        "ignition_cause": "4 Act of nature",
+        "estimated_property_loss": "250000",
+        "number_of_alarms": "1",
+        "station_area": "06"
+    },
+    {
+        "incident_number": "25072619",
+        "incident_date": "2025-05-21T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.4129,
+                37.785868
+            ]
+        },
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "1000000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25072619",
+        "incident_date": "2025-05-21T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.4129,
+                37.785868
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "1000000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25073552",
+        "incident_date": "2025-05-22T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.478126,
+                37.761296
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "1",
+        "station_area": "22"
+    },
+    {
+        "incident_number": "25073273",
+        "incident_date": "2025-05-22T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.433902,
+                37.717151
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "400000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
+        "incident_number": "25073922",
+        "incident_date": "2025-05-23T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.422096,
+                37.740801
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
+        "incident_number": "25073924",
+        "incident_date": "2025-05-23T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.417161,
+                37.784378
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "200000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25075459",
+        "incident_date": "2025-05-26T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.40456,
+                37.721835
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "44"
+    },
+    {
+        "incident_number": "25075176",
+        "incident_date": "2025-05-26T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.501954,
+                37.741952
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "40000",
+        "number_of_alarms": "1",
+        "station_area": "18"
+    },
+    {
+        "incident_number": "25075851",
+        "incident_date": "2025-05-27T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.407339,
+                37.778212
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25080075",
+        "incident_date": "2025-06-04T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.43757,
+                37.774285
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "25000",
+        "number_of_alarms": "1",
+        "station_area": "21"
+    },
+    {
+        "incident_number": "25080033",
+        "incident_date": "2025-06-04T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.480434,
+                37.77886
+            ]
+        },
+        "ignition_cause": "5 Cause under investigation",
+        "estimated_property_loss": "25000",
+        "number_of_alarms": "1",
+        "station_area": "14"
+    },
+    {
+        "incident_number": "25080308",
+        "incident_date": "2025-06-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.388412,
+                37.772147
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "04"
+    },
+    {
+        "incident_number": "25080723",
+        "incident_date": "2025-06-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.46306,
+                37.777696
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "3500000",
+        "number_of_alarms": "4",
+        "station_area": "31"
+    },
+    {
+        "incident_number": "25082216",
+        "incident_date": "2025-06-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.411958,
+                37.785642
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "500",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25082459",
+        "incident_date": "2025-06-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.411078,
+                37.7607
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "500",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25083491",
+        "incident_date": "2025-06-11T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.415705,
+                37.782198
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "400000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25083456",
+        "incident_date": "2025-06-11T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.39376,
+                37.72796
+            ]
+        },
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "500000",
+        "number_of_alarms": "1",
+        "station_area": "17"
+    },
+    {
+        "incident_number": "25083928",
+        "incident_date": "2025-06-12T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.42997,
+                37.726532
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
+        "incident_number": "25083908",
+        "incident_date": "2025-06-12T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.452449,
+                37.782928
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "40000",
+        "number_of_alarms": "1",
+        "station_area": "10"
+    },
+    {
+        "incident_number": "25085090",
+        "incident_date": "2025-06-14T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.418823,
+                37.783411
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "6000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25085359",
+        "incident_date": "2025-06-15T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.415911,
+                37.775175
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25085376",
+        "incident_date": "2025-06-15T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.484366,
+                37.783841
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "1",
+        "station_area": "14"
+    },
+    {
+        "incident_number": "25085936",
+        "incident_date": "2025-06-16T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.427954,
+                37.772355
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "06"
+    },
+    {
+        "incident_number": "25086016",
+        "incident_date": "2025-06-17T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.453862,
+                37.71299
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "33"
+    },
+    {
+        "incident_number": "25086440",
+        "incident_date": "2025-06-17T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.415586,
+                37.757694
+            ]
+        },
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "0",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25086946",
+        "incident_date": "2025-06-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.412281,
+                37.79951
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "3000",
+        "number_of_alarms": "1",
+        "station_area": "02"
+    },
+    {
+        "incident_number": "25087938",
+        "incident_date": "2025-06-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.47578,
+                37.743751
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "40"
+    },
+    {
+        "incident_number": "25088142",
+        "incident_date": "2025-06-21T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.395178,
+                37.786101
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "2500",
+        "number_of_alarms": "1",
+        "station_area": "35"
+    },
+    {
+        "incident_number": "25088529",
+        "incident_date": "2025-06-22T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.412295,
+                37.784858
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25089449",
+        "incident_date": "2025-06-23T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.411958,
+                37.785642
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25089327",
+        "incident_date": "2025-06-23T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.413815,
+                37.786571
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25090507",
+        "incident_date": "2025-06-26T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.449647,
+                37.769662
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "12"
+    },
+    {
+        "incident_number": "25092254",
+        "incident_date": "2025-06-29T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.41168,
+                37.784342
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "2000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25093014",
+        "incident_date": "2025-06-30T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.420095,
+                37.78578
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25092996",
+        "incident_date": "2025-06-30T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.420469,
+                37.783795
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "0",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25094119",
+        "incident_date": "2025-07-02T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.455351,
+                37.781381
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "8000",
+        "number_of_alarms": "1",
+        "station_area": "10"
+    },
+    {
+        "incident_number": "25094868",
+        "incident_date": "2025-07-04T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.428378,
+                37.754929
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "350000",
+        "number_of_alarms": "1",
+        "station_area": "11"
+    },
+    {
+        "incident_number": "25094821",
+        "incident_date": "2025-07-04T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.412929,
+                37.785147
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25095422",
+        "incident_date": "2025-07-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419316,
+                37.742322
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
+        "incident_number": "25095738",
+        "incident_date": "2025-07-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.38987,
+                37.773659
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "04"
+    },
+    {
+        "incident_number": "25098398",
+        "incident_date": "2025-07-11T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.417881,
+                37.764634
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1500",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25098334",
+        "incident_date": "2025-07-11T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.48568,
+                37.779497
+            ]
+        },
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "400000",
+        "number_of_alarms": "1",
+        "station_area": "14"
+    },
+    {
+        "incident_number": "25098334",
+        "incident_date": "2025-07-11T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.48568,
+                37.779497
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "400000",
+        "number_of_alarms": "1",
+        "station_area": "14"
+    },
+    {
+        "incident_number": "25099081",
+        "incident_date": "2025-07-12T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.432311,
+                37.76369
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "75000",
+        "number_of_alarms": "1",
+        "station_area": "06"
+    },
+    {
+        "incident_number": "25099531",
+        "incident_date": "2025-07-13T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.430162,
+                37.778979
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "05"
+    },
+    {
+        "incident_number": "25100127",
+        "incident_date": "2025-07-15T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.412958,
+                37.776132
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "600000",
+        "number_of_alarms": "2",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25100176",
+        "incident_date": "2025-07-15T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.438131,
+                37.748359
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "24"
+    },
+    {
+        "incident_number": "25100337",
+        "incident_date": "2025-07-15T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.42852,
+                37.750471
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "25000",
+        "number_of_alarms": "1",
+        "station_area": "11"
+    },
+    {
+        "incident_number": "25100564",
+        "incident_date": "2025-07-16T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.423367,
+                37.757998
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "1000000",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25101825",
+        "incident_date": "2025-07-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.452384,
+                37.731465
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "1",
+        "station_area": "15"
+    },
+    {
+        "incident_number": "25101817",
+        "incident_date": "2025-07-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.416455,
+                37.792137
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "41"
+    },
+    {
+        "incident_number": "25102213",
+        "incident_date": "2025-07-19T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.453076,
+                37.801964
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "51"
+    },
+    {
+        "incident_number": "25103193",
+        "incident_date": "2025-07-21T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.422745,
+                37.778755
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "20000",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25104440",
+        "incident_date": "2025-07-24T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.475213,
+                37.783338
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "31"
+    },
+    {
+        "incident_number": "25104679",
+        "incident_date": "2025-07-24T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419705,
+                37.764492
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "500",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25108269",
+        "incident_date": "2025-07-31T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.410208,
+                37.779886
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25109216",
+        "incident_date": "2025-08-02T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.412999,
+                37.758201
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "25000",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25109453",
+        "incident_date": "2025-08-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419436,
+                37.776449
+            ]
+        },
+        "ignition_cause": "5 Cause under investigation",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25110476",
+        "incident_date": "2025-08-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.415004,
+                37.784298
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "2000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25110829",
+        "incident_date": "2025-08-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.506967,
+                37.774246
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "34"
+    },
+    {
+        "incident_number": "25110729",
+        "incident_date": "2025-08-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.432462,
+                37.758483
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "1000000",
+        "number_of_alarms": "1",
+        "station_area": "06"
+    },
+    {
+        "incident_number": "25110480",
+        "incident_date": "2025-08-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.398326,
+                37.761933
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "400000",
+        "number_of_alarms": "1",
+        "station_area": "37"
+    },
+    {
+        "incident_number": "25110888",
+        "incident_date": "2025-08-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.410537,
+                37.779209
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25113525",
+        "incident_date": "2025-08-11T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.396279,
+                37.750692
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "37"
+    },
+    {
+        "incident_number": "25114827",
+        "incident_date": "2025-08-13T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.469029,
+                37.71826
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "number_of_alarms": "1",
+        "station_area": "33"
+    },
+    {
+        "incident_number": "25116135",
+        "incident_date": "2025-08-16T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.426832,
+                37.784111
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "6000",
+        "number_of_alarms": "1",
+        "station_area": "38"
+    },
+    {
+        "incident_number": "25117433",
+        "incident_date": "2025-08-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.390655,
+                37.735643
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "125000",
+        "number_of_alarms": "1",
+        "station_area": "17"
+    },
+    {
+        "incident_number": "25117114",
+        "incident_date": "2025-08-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.412981,
+                37.781086
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25117075",
+        "incident_date": "2025-08-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.412981,
+                37.781086
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25117899",
+        "incident_date": "2025-08-19T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.484112,
+                37.785086
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "2000",
+        "number_of_alarms": "1",
+        "station_area": "14"
+    },
+    {
+        "incident_number": "25118141",
+        "incident_date": "2025-08-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
+        "incident_number": "25119902",
+        "incident_date": "2025-08-23T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.44591,
+                37.789559
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "10"
+    },
+    {
+        "incident_number": "25120161",
+        "incident_date": "2025-08-24T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.425229,
+                37.761547
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "75000",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25121379",
+        "incident_date": "2025-08-26T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.411361,
+                37.783391
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25123573",
+        "incident_date": "2025-08-30T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.418823,
+                37.783411
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25123276",
+        "incident_date": "2025-08-30T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.435241,
+                37.797189
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "25000",
+        "number_of_alarms": "1",
+        "station_area": "16"
+    },
+    {
+        "incident_number": "25124093",
+        "incident_date": "2025-08-31T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.497268,
+                37.776208
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "34"
+    },
+    {
+        "incident_number": "25124271",
+        "incident_date": "2025-09-01T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.403465,
+                37.742127
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "number_of_alarms": "1",
+        "station_area": "09"
+    },
+    {
+        "incident_number": "25124821",
+        "incident_date": "2025-09-02T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.415383,
+                37.789806
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "41"
+    },
+    {
+        "incident_number": "25125625",
+        "incident_date": "2025-09-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.491063,
+                37.753664
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "40000",
+        "number_of_alarms": "1",
+        "station_area": "18"
+    },
+    {
+        "incident_number": "25126545",
+        "incident_date": "2025-09-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.423778,
+                37.777806
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25126978",
+        "incident_date": "2025-09-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.42075,
+                37.775948
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25132429",
+        "incident_date": "2025-09-17T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.420452,
+                37.798944
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "500000",
+        "number_of_alarms": "1",
+        "station_area": "41"
+    },
+    {
+        "incident_number": "25134722",
+        "incident_date": "2025-09-21T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.444357,
+                37.751542
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "75000",
+        "number_of_alarms": "1",
+        "station_area": "24"
+    },
+    {
+        "incident_number": "25135571",
+        "incident_date": "2025-09-23T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.428307,
+                37.759865
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "20000",
+        "number_of_alarms": "1",
+        "station_area": "06"
+    },
+    {
+        "incident_number": "25138435",
+        "incident_date": "2025-09-28T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.44592,
+                37.749891
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "300000",
+        "number_of_alarms": "1",
+        "station_area": "24"
+    },
+    {
+        "incident_number": "25138975",
+        "incident_date": "2025-09-29T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.442868,
+                37.778102
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "25000",
+        "number_of_alarms": "1",
+        "station_area": "21"
+    },
+    {
+        "incident_number": "25140598",
+        "incident_date": "2025-10-02T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.390965,
+                37.77108
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "80000",
+        "number_of_alarms": "1",
+        "station_area": "04"
+    },
+    {
+        "incident_number": "25141355",
+        "incident_date": "2025-10-04T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.42075,
+                37.775948
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "0",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25142177",
+        "incident_date": "2025-10-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.417071,
+                37.788283
+            ]
+        },
+        "ignition_cause": "5 Cause under investigation",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25141870",
+        "incident_date": "2025-10-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.414904,
+                37.782755
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "40000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25142500",
+        "incident_date": "2025-10-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.418065,
+                37.786413
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25143068",
+        "incident_date": "2025-10-07T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.426083,
+                37.775129
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "700000",
+        "number_of_alarms": "2",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25143068",
+        "incident_date": "2025-10-07T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.426083,
+                37.775129
+            ]
+        },
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "700000",
+        "number_of_alarms": "2",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25143359",
+        "incident_date": "2025-10-08T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.409606,
+                37.78036
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "2000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25144017",
+        "incident_date": "2025-10-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
+        "incident_number": "25143964",
+        "incident_date": "2025-10-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.441216,
+                37.771763
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "20000",
+        "number_of_alarms": "1",
+        "station_area": "21"
+    },
+    {
+        "incident_number": "25145062",
+        "incident_date": "2025-10-11T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.47875,
+                37.739457
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "40000",
+        "number_of_alarms": "1",
+        "station_area": "40"
+    },
+    {
+        "incident_number": "25146981",
+        "incident_date": "2025-10-15T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.445273,
+                37.799738
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "2000000",
+        "number_of_alarms": "3",
+        "station_area": "16"
+    },
+    {
+        "incident_number": "25148037",
+        "incident_date": "2025-10-17T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419835,
+                37.786358
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25152289",
+        "incident_date": "2025-10-25T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.417881,
+                37.764634
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25154188",
+        "incident_date": "2025-10-29T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.414675,
+                37.7836
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "2500",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25154614",
+        "incident_date": "2025-10-29T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.479428,
+                37.716235
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "20000",
+        "number_of_alarms": "1",
+        "station_area": "19"
+    },
+    {
+        "incident_number": "25154687",
+        "incident_date": "2025-10-30T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.369039,
+                37.730019
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "number_of_alarms": "1",
+        "station_area": "17"
+    },
+    {
+        "incident_number": "25155644",
+        "incident_date": "2025-10-31T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.425023,
+                37.799445
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "1500000",
+        "number_of_alarms": "2",
+        "station_area": "16"
+    },
+    {
+        "incident_number": "25156766",
+        "incident_date": "2025-11-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.453631,
+                37.787971
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "0",
+        "number_of_alarms": "1",
+        "station_area": "10"
+    },
+    {
+        "incident_number": "25157077",
+        "incident_date": "2025-11-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.420095,
+                37.773019
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
+        "incident_number": "25158680",
+        "incident_date": "2025-11-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419956,
+                37.76086
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "125000",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
+        "incident_number": "25158646",
+        "incident_date": "2025-11-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419414,
+                37.730804
+            ]
+        },
+        "ignition_cause": "5 Cause under investigation",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
+        "incident_number": "25158990",
+        "incident_date": "2025-11-07T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.446149,
+                37.784381
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "10"
+    },
+    {
+        "incident_number": "25159896",
+        "incident_date": "2025-11-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.420095,
+                37.78578
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25159911",
+        "incident_date": "2025-11-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.386186,
+                37.774067
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "0",
+        "number_of_alarms": "1",
+        "station_area": "04"
+    },
+    {
+        "incident_number": "25161618",
+        "incident_date": "2025-11-12T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.415695,
+                37.782585
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "500",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25164301",
+        "incident_date": "2025-11-17T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.410208,
+                37.779886
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25166217",
+        "incident_date": "2025-11-21T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.395224,
+                37.755191
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "37"
+    },
+    {
+        "incident_number": "25170552",
+        "incident_date": "2025-12-01T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.417507,
+                37.784395
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "2000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25171400",
+        "incident_date": "2025-12-02T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.404546,
+                37.743942
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "09"
+    },
+    {
+        "incident_number": "25171806",
+        "incident_date": "2025-12-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.433558,
+                37.724812
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
+        "incident_number": "25173077",
+        "incident_date": "2025-12-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.418357,
+                37.744828
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "350000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
+        "incident_number": "25172884",
+        "incident_date": "2025-12-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.474316,
+                37.719707
+            ]
+        },
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "375",
+        "number_of_alarms": "1",
+        "station_area": "19"
+    },
+    {
+        "incident_number": "25173535",
+        "incident_date": "2025-12-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.404373,
+                37.754124
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "1",
+        "station_area": "37"
+    },
+    {
+        "incident_number": "25174016",
+        "incident_date": "2025-12-07T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.414247,
+                37.784178
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
+        "incident_number": "25173654",
+        "incident_date": "2025-12-07T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.377121,
+                37.731257
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "17"
+    },
+    {
+        "incident_number": "25176296",
+        "incident_date": "2025-12-12T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.42027,
+                37.80293
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "28"
+    },
+    {
+        "incident_number": "25176304",
+        "incident_date": "2025-12-12T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.411273,
+                37.782261
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "2000000",
+        "number_of_alarms": "3",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25176457",
+        "incident_date": "2025-12-12T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.44545,
+                37.718484
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "800000",
+        "number_of_alarms": "2",
+        "station_area": "15"
+    },
+    {
+        "incident_number": "25176965",
+        "incident_date": "2025-12-13T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.465672,
+                37.763995
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "22"
+    },
+    {
+        "incident_number": "25177574",
+        "incident_date": "2025-12-14T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.434074,
+                37.773805
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "21"
+    },
+    {
+        "incident_number": "25177743",
+        "incident_date": "2025-12-14T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419699,
+                37.740727
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
+        "incident_number": "25179433",
+        "incident_date": "2025-12-17T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.40527,
+                37.783473
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
+        "incident_number": "25179395",
+        "incident_date": "2025-12-17T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.474365,
+                37.717836
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "19"
+    },
+    {
+        "incident_number": "25181139",
+        "incident_date": "2025-12-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.406928,
+                37.795621
+            ]
+        },
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "02"
+    },
+    {
+        "incident_number": "25181239",
+        "incident_date": "2025-12-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.384992,
+                37.726757
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "75000",
+        "number_of_alarms": "1",
+        "station_area": "17"
+    },
+    {
+        "incident_number": "25181591",
+        "incident_date": "2025-12-21T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.457459,
+                37.77529
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "21"
+    },
+    {
+        "incident_number": "25183504",
+        "incident_date": "2025-12-24T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.436645,
+                37.729437
+            ]
+        },
+        "ignition_cause": "5 Cause under investigation",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "15"
+    },
+    {
+        "incident_number": "25184176",
+        "incident_date": "2025-12-25T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419911,
+                37.711923
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
+        "incident_number": "26001419",
+        "incident_date": "2026-01-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.393995,
+                37.748443
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "09"
+    }
+]

@@ -1,0 +1,7 @@
+# Documents
+*.xlsx
+*pdf
+
+# API
+.streamlit/
+*.toml
