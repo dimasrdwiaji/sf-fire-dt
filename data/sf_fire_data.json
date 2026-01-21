@@ -1,6 +1,7 @@
 [
     {
         "incident_number": "25011415",
+        "address": "440 GEARY STREET",
         "incident_date": "2025-01-22T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -17,6 +18,7 @@
     },
     {
         "incident_number": "25012913",
+        "address": "65 VENUS STREET",
         "incident_date": "2025-01-24T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -33,6 +35,7 @@
     },
     {
         "incident_number": "25013040",
+        "address": "1924 HYDE STREET",
         "incident_date": "2025-01-25T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -49,6 +52,7 @@
     },
     {
         "incident_number": "25014016",
+        "address": "201 LEAVENWORTH STREET",
         "incident_date": "2025-01-26T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -65,6 +69,7 @@
     },
     {
         "incident_number": "25017183",
+        "address": "250 KEARNY STREET",
         "incident_date": "2025-02-01T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -81,6 +86,7 @@
     },
     {
         "incident_number": "25018166",
+        "address": "1401 10TH AVENUE",
         "incident_date": "2025-02-03T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -97,6 +103,7 @@
     },
     {
         "incident_number": "25018318",
+        "address": "670 EDDY STREET",
         "incident_date": "2025-02-04T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -113,6 +120,7 @@
     },
     {
         "incident_number": "25018522",
+        "address": "2277 FULTON STREET",
         "incident_date": "2025-02-04T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -129,6 +137,7 @@
     },
     {
         "incident_number": "25019520",
+        "address": "516 OFARRELL STREET",
         "incident_date": "2025-02-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -144,23 +153,8 @@
         "station_area": "03"
     },
     {
-        "incident_number": "25020588",
-        "incident_date": "2025-02-07T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.412074,
-                37.782645
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "2000",
-        "number_of_alarms": "1",
-        "station_area": "03"
-    },
-    {
         "incident_number": "25020234",
+        "address": "12 LINCOLN COURT",
         "incident_date": "2025-02-07T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -176,23 +170,25 @@
         "station_area": "43"
     },
     {
-        "incident_number": "25021719",
-        "incident_date": "2025-02-09T00:00:00.000",
+        "incident_number": "25020588",
+        "address": "140 JONES STREET",
+        "incident_date": "2025-02-07T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
             "type": "Point",
             "coordinates": [
-                -122.420116,
-                37.768972
+                -122.412074,
+                37.782645
             ]
         },
-        "ignition_cause": "U Cause undetermined after investigation",
-        "estimated_property_loss": "30000",
-        "number_of_alarms": "2",
-        "station_area": "06"
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "2000",
+        "number_of_alarms": "1",
+        "station_area": "03"
     },
     {
         "incident_number": "25021535",
+        "address": "202 BROAD STREET",
         "incident_date": "2025-02-09T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -208,23 +204,25 @@
         "station_area": "33"
     },
     {
-        "incident_number": "25022245",
-        "incident_date": "2025-02-10T00:00:00.000",
+        "incident_number": "25021719",
+        "address": "1750 MISSION STREET",
+        "incident_date": "2025-02-09T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
             "type": "Point",
             "coordinates": [
-                -122.409656,
-                37.780127
+                -122.420116,
+                37.768972
             ]
         },
-        "ignition_cause": "1 Intentional",
-        "estimated_property_loss": "1000",
-        "number_of_alarms": "1",
-        "station_area": "01"
+        "ignition_cause": "U Cause undetermined after investigation",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "2",
+        "station_area": "06"
     },
     {
         "incident_number": "25021907",
+        "address": "907 VALENCIA STREET",
         "incident_date": "2025-02-10T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -240,7 +238,25 @@
         "station_area": "07"
     },
     {
+        "incident_number": "25022245",
+        "address": "1045 MISSION STREET",
+        "incident_date": "2025-02-10T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.409656,
+                37.780127
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
         "incident_number": "25023574",
+        "address": "300 LAGUNA HONDA BL",
         "incident_date": "2025-02-13T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -257,6 +273,7 @@
     },
     {
         "incident_number": "25024841",
+        "address": "730 EDDY STREET",
         "incident_date": "2025-02-15T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -273,6 +290,7 @@
     },
     {
         "incident_number": "25026019",
+        "address": "2185 HAYES STREET",
         "incident_date": "2025-02-17T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -288,23 +306,8 @@
         "station_area": "21"
     },
     {
-        "incident_number": "25026394",
-        "incident_date": "2025-02-18T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.439803,
-                37.728868
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "125000",
-        "number_of_alarms": "1",
-        "station_area": "15"
-    },
-    {
         "incident_number": "25026309",
+        "address": "1296 SHOTWELL STREET",
         "incident_date": "2025-02-18T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -320,7 +323,25 @@
         "station_area": "11"
     },
     {
+        "incident_number": "25026394",
+        "address": "290 SANTA ROSA AVENUE",
+        "incident_date": "2025-02-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.439803,
+                37.728868
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "125000",
+        "number_of_alarms": "1",
+        "station_area": "15"
+    },
+    {
         "incident_number": "25028453",
+        "address": "141 BLAKE STREET",
         "incident_date": "2025-02-22T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -337,6 +358,7 @@
     },
     {
         "incident_number": "25028913",
+        "address": "1049 MARKET STREET",
         "incident_date": "2025-02-23T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -353,6 +375,7 @@
     },
     {
         "incident_number": "25029410",
+        "address": "1 JEFFERSON STREET",
         "incident_date": "2025-02-24T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -369,6 +392,7 @@
     },
     {
         "incident_number": "25029555",
+        "address": "2121 3RD STREET",
         "incident_date": "2025-02-24T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -385,6 +409,7 @@
     },
     {
         "incident_number": "25030164",
+        "address": "1301 SHAFTER AVENUE",
         "incident_date": "2025-02-25T00:00:00.000",
         "primary_situation": "111 Building fire",
         "ignition_cause": "2 Unintentional",
@@ -394,6 +419,7 @@
     },
     {
         "incident_number": "25032086",
+        "address": "220 GOLDEN GATE AVENUE",
         "incident_date": "2025-03-01T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -409,23 +435,8 @@
         "station_area": "03"
     },
     {
-        "incident_number": "25032935",
-        "incident_date": "2025-03-02T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.419359,
-                37.757077
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "30000",
-        "number_of_alarms": "1",
-        "station_area": "07"
-    },
-    {
         "incident_number": "25032888",
+        "address": "268 RUTLEDGE STREET",
         "incident_date": "2025-03-02T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -441,7 +452,25 @@
         "station_area": "09"
     },
     {
+        "incident_number": "25032935",
+        "address": "3218 21ST STREET",
+        "incident_date": "2025-03-02T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419359,
+                37.757077
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "1",
+        "station_area": "07"
+    },
+    {
         "incident_number": "25033263",
+        "address": "721 BRANNAN STREET",
         "incident_date": "2025-03-03T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -457,6 +486,7 @@
     },
     {
         "incident_number": "25033603",
+        "address": "1406 35TH AVENUE",
         "incident_date": "2025-03-04T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -473,6 +503,7 @@
     },
     {
         "incident_number": "25033931",
+        "address": "3060 19TH AVENUE",
         "incident_date": "2025-03-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -488,23 +519,8 @@
         "station_area": "19"
     },
     {
-        "incident_number": "25035731",
-        "incident_date": "2025-03-08T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.437687,
-                37.714966
-            ]
-        },
-        "ignition_cause": "3 Failure of equipment or heat source",
-        "estimated_property_loss": "100000",
-        "number_of_alarms": "1",
-        "station_area": "43"
-    },
-    {
         "incident_number": "25035454",
+        "address": "738 22ND AVENUE",
         "incident_date": "2025-03-08T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -520,7 +536,25 @@
         "station_area": "14"
     },
     {
+        "incident_number": "25035731",
+        "address": "1101 GENEVA AVENUE",
+        "incident_date": "2025-03-08T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.437687,
+                37.714966
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "100000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
         "incident_number": "25036328",
+        "address": "2001 20TH STREET",
         "incident_date": "2025-03-09T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -537,6 +571,7 @@
     },
     {
         "incident_number": "25037352",
+        "address": "567 42ND AVENUE",
         "incident_date": "2025-03-11T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -553,6 +588,7 @@
     },
     {
         "incident_number": "25037731",
+        "address": "40 QUICKSTEP LANE",
         "incident_date": "2025-03-12T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -569,6 +605,7 @@
     },
     {
         "incident_number": "25038081",
+        "address": "325 ARGUELLO BL",
         "incident_date": "2025-03-13T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -585,6 +622,7 @@
     },
     {
         "incident_number": "25039702",
+        "address": "571 42ND AVENUE",
         "incident_date": "2025-03-16T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -601,6 +639,7 @@
     },
     {
         "incident_number": "25040389",
+        "address": "55 MASON STREET",
         "incident_date": "2025-03-17T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -616,23 +655,8 @@
         "station_area": "01"
     },
     {
-        "incident_number": "25040805",
-        "incident_date": "2025-03-18T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.410634,
-                37.787167
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "40000",
-        "number_of_alarms": "1",
-        "station_area": "03"
-    },
-    {
         "incident_number": "25040775",
+        "address": "516 OFARRELL STREET",
         "incident_date": "2025-03-18T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -648,23 +672,25 @@
         "station_area": "03"
     },
     {
-        "incident_number": "25041846",
-        "incident_date": "2025-03-20T00:00:00.000",
+        "incident_number": "25040805",
+        "address": "440 GEARY STREET",
+        "incident_date": "2025-03-18T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
             "type": "Point",
             "coordinates": [
-                -122.428735,
-                37.719598
+                -122.410634,
+                37.787167
             ]
         },
         "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "42000",
+        "estimated_property_loss": "40000",
         "number_of_alarms": "1",
-        "station_area": "43"
+        "station_area": "03"
     },
     {
         "incident_number": "25041571",
+        "address": "711 POST STREET",
         "incident_date": "2025-03-20T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -680,7 +706,25 @@
         "station_area": "03"
     },
     {
+        "incident_number": "25041846",
+        "address": "906 PERSIA AVENUE",
+        "incident_date": "2025-03-20T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.428735,
+                37.719598
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "42000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
         "incident_number": "25043959",
+        "address": "3031 FILLMORE STREET",
         "incident_date": "2025-03-24T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -697,6 +741,7 @@
     },
     {
         "incident_number": "25044311",
+        "address": "14 HILL STREET",
         "incident_date": "2025-03-25T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -712,23 +757,8 @@
         "station_area": "07"
     },
     {
-        "incident_number": "25044964",
-        "incident_date": "2025-03-26T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.411464,
-                37.776432
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "0",
-        "number_of_alarms": "1",
-        "station_area": "01"
-    },
-    {
         "incident_number": "25044979",
+        "address": "1 WARREN DRIVE",
         "incident_date": "2025-03-26T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -744,23 +774,25 @@
         "station_area": "20"
     },
     {
-        "incident_number": "25045521",
-        "incident_date": "2025-03-27T00:00:00.000",
+        "incident_number": "25044964",
+        "address": "1190 HOWARD STREET",
+        "incident_date": "2025-03-26T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
             "type": "Point",
             "coordinates": [
-                -122.41222,
-                37.776516
+                -122.411464,
+                37.776432
             ]
         },
         "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "5000",
+        "estimated_property_loss": "0",
         "number_of_alarms": "1",
         "station_area": "01"
     },
     {
         "incident_number": "25045151",
+        "address": "1028 HOWARD STREET",
         "incident_date": "2025-03-27T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -776,23 +808,25 @@
         "station_area": "01"
     },
     {
-        "incident_number": "25048769",
-        "incident_date": "2025-04-03T00:00:00.000",
+        "incident_number": "25045521",
+        "address": "705 NATOMA STREET",
+        "incident_date": "2025-03-27T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
             "type": "Point",
             "coordinates": [
-                -122.400824,
-                37.715859
+                -122.41222,
+                37.776516
             ]
         },
         "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "50000",
+        "estimated_property_loss": "5000",
         "number_of_alarms": "1",
-        "station_area": "44"
+        "station_area": "01"
     },
     {
         "incident_number": "25048462",
+        "address": "175 6TH STREET",
         "incident_date": "2025-04-03T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -809,6 +843,7 @@
     },
     {
         "incident_number": "25048849",
+        "address": "1950 MISSION STREET",
         "incident_date": "2025-04-03T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -824,7 +859,42 @@
         "station_area": "07"
     },
     {
+        "incident_number": "25048769",
+        "address": "1339 BRUSSELS STREET",
+        "incident_date": "2025-04-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.400824,
+                37.715859
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "44"
+    },
+    {
+        "incident_number": "25049920",
+        "address": "1664 LARKIN STREET",
+        "incident_date": "2025-04-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.419582,
+                37.793465
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "2500000",
+        "number_of_alarms": "4",
+        "station_area": "41"
+    },
+    {
         "incident_number": "25049574",
+        "address": "1251 TURK STREET",
         "incident_date": "2025-04-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -841,22 +911,7 @@
     },
     {
         "incident_number": "25049920",
-        "incident_date": "2025-04-05T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.419582,
-                37.793465
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "2500000",
-        "number_of_alarms": "4",
-        "station_area": "41"
-    },
-    {
-        "incident_number": "25049920",
+        "address": "1575 WASHINGTON ST",
         "incident_date": "2025-04-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -873,6 +928,7 @@
     },
     {
         "incident_number": "25051374",
+        "address": "4373 GEARY BL",
         "incident_date": "2025-04-08T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -889,6 +945,7 @@
     },
     {
         "incident_number": "25051710",
+        "address": "1246 PENNSYLVANIA AVENUE",
         "incident_date": "2025-04-09T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -905,6 +962,7 @@
     },
     {
         "incident_number": "25051789",
+        "address": "1239 GENEVA AVENUE",
         "incident_date": "2025-04-09T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -921,6 +979,7 @@
     },
     {
         "incident_number": "25052657",
+        "address": "2084 MISSION STREET",
         "incident_date": "2025-04-11T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -937,6 +996,7 @@
     },
     {
         "incident_number": "25055056",
+        "address": "220 ARLINGTON STREET",
         "incident_date": "2025-04-15T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -953,6 +1013,7 @@
     },
     {
         "incident_number": "25055231",
+        "address": "1352 HAIGHT STREET",
         "incident_date": "2025-04-16T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -969,6 +1030,7 @@
     },
     {
         "incident_number": "25055638",
+        "address": "2175 16TH STREET",
         "incident_date": "2025-04-17T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -984,23 +1046,8 @@
         "station_area": "29"
     },
     {
-        "incident_number": "25057336",
-        "incident_date": "2025-04-20T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.414604,
-                37.783897
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "500",
-        "number_of_alarms": "1",
-        "station_area": "03"
-    },
-    {
         "incident_number": "25057488",
+        "address": "2014 CLEMENT STREET",
         "incident_date": "2025-04-20T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1016,23 +1063,25 @@
         "station_area": "14"
     },
     {
-        "incident_number": "25057376",
+        "incident_number": "25057336",
+        "address": "410 EDDY STREET",
         "incident_date": "2025-04-20T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
             "type": "Point",
             "coordinates": [
-                -122.413815,
-                37.786571
+                -122.414604,
+                37.783897
             ]
         },
-        "ignition_cause": "1 Intentional",
-        "estimated_property_loss": "1000",
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "500",
         "number_of_alarms": "1",
         "station_area": "03"
     },
     {
         "incident_number": "25057243",
+        "address": "3135 PACIFIC AVENUE",
         "incident_date": "2025-04-20T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1048,23 +1097,25 @@
         "station_area": "10"
     },
     {
-        "incident_number": "25057645",
-        "incident_date": "2025-04-21T00:00:00.000",
+        "incident_number": "25057376",
+        "address": "639 GEARY STREET",
+        "incident_date": "2025-04-20T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
             "type": "Point",
             "coordinates": [
-                -122.420095,
-                37.773019
+                -122.413815,
+                37.786571
             ]
         },
-        "ignition_cause": "2 Unintentional",
+        "ignition_cause": "1 Intentional",
         "estimated_property_loss": "1000",
         "number_of_alarms": "1",
-        "station_area": "36"
+        "station_area": "03"
     },
     {
         "incident_number": "25058091",
+        "address": "23 JENNIFER PLACE",
         "incident_date": "2025-04-21T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1080,7 +1131,25 @@
         "station_area": "01"
     },
     {
+        "incident_number": "25057645",
+        "address": "53 COLTON STREET",
+        "incident_date": "2025-04-21T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.420095,
+                37.773019
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
         "incident_number": "25058752",
+        "address": "364 EDDY STREET",
         "incident_date": "2025-04-23T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1097,6 +1166,7 @@
     },
     {
         "incident_number": "25059479",
+        "address": "138 MADRONE AVENUE",
         "incident_date": "2025-04-24T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1113,6 +1183,7 @@
     },
     {
         "incident_number": "25059885",
+        "address": "424 ELLIS STREET",
         "incident_date": "2025-04-25T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1129,6 +1200,7 @@
     },
     {
         "incident_number": "25060336",
+        "address": "555 BRYANT STREET",
         "incident_date": "2025-04-26T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1144,23 +1216,8 @@
         "station_area": "08"
     },
     {
-        "incident_number": "25060768",
-        "incident_date": "2025-04-27T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.484927,
-                37.753409
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "15000",
-        "number_of_alarms": "1",
-        "station_area": "18"
-    },
-    {
         "incident_number": "25060818",
+        "address": "354 22ND AVENUE",
         "incident_date": "2025-04-27T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1176,7 +1233,25 @@
         "station_area": "14"
     },
     {
+        "incident_number": "25060768",
+        "address": "1822 27TH AVENUE",
+        "incident_date": "2025-04-27T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.484927,
+                37.753409
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "18"
+    },
+    {
         "incident_number": "25061134",
+        "address": "275 TURK STREET",
         "incident_date": "2025-04-28T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1193,6 +1268,7 @@
     },
     {
         "incident_number": "25061705",
+        "address": "1214 NEWHALL STREET",
         "incident_date": "2025-04-29T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1209,6 +1285,7 @@
     },
     {
         "incident_number": "25062954",
+        "address": "1750 MISSION STREET",
         "incident_date": "2025-05-01T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1225,6 +1302,7 @@
     },
     {
         "incident_number": "25063751",
+        "address": "2782 FOLSOM STREET",
         "incident_date": "2025-05-03T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1241,6 +1319,7 @@
     },
     {
         "incident_number": "25064436",
+        "address": "2421 NORIEGA STREET",
         "incident_date": "2025-05-04T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1257,6 +1336,7 @@
     },
     {
         "incident_number": "25064692",
+        "address": "1855 27TH AVENUE",
         "incident_date": "2025-05-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1273,6 +1353,7 @@
     },
     {
         "incident_number": "25065191",
+        "address": "696-A AMADOR ST.",
         "incident_date": "2025-05-06T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1288,23 +1369,8 @@
         "station_area": "25"
     },
     {
-        "incident_number": "25065415",
-        "incident_date": "2025-05-06T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.431817,
-                37.751727
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "2500",
-        "number_of_alarms": "1",
-        "station_area": "11"
-    },
-    {
         "incident_number": "25065587",
+        "address": "108 SEAL ROCK DRIVE",
         "incident_date": "2025-05-06T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1320,7 +1386,25 @@
         "station_area": "34"
     },
     {
+        "incident_number": "25065415",
+        "address": "1083 NOE STREET",
+        "incident_date": "2025-05-06T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.431817,
+                37.751727
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "2500",
+        "number_of_alarms": "1",
+        "station_area": "11"
+    },
+    {
         "incident_number": "25067246",
+        "address": "25 EDWARD STREET",
         "incident_date": "2025-05-09T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1336,39 +1420,8 @@
         "station_area": "31"
     },
     {
-        "incident_number": "25067282",
-        "incident_date": "2025-05-10T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.411901,
-                37.785047
-            ]
-        },
-        "ignition_cause": "1 Intentional",
-        "estimated_property_loss": "10000",
-        "number_of_alarms": "1",
-        "station_area": "03"
-    },
-    {
-        "incident_number": "25067546",
-        "incident_date": "2025-05-10T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.423618,
-                37.738632
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "50000",
-        "number_of_alarms": "1",
-        "station_area": "32"
-    },
-    {
         "incident_number": "25067583",
+        "address": "2774 BRYANT STREET",
         "incident_date": "2025-05-10T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1384,7 +1437,42 @@
         "station_area": "09"
     },
     {
+        "incident_number": "25067546",
+        "address": "6 APPLETON AVENUE",
+        "incident_date": "2025-05-10T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.423618,
+                37.738632
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
+        "incident_number": "25067282",
+        "address": "344 ELLIS STREET",
+        "incident_date": "2025-05-10T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.411901,
+                37.785047
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
         "incident_number": "25068132",
+        "address": "39 NORTHRIDGE ROAD",
         "incident_date": "2025-05-11T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1401,6 +1489,7 @@
     },
     {
         "incident_number": "25068173",
+        "address": "428 ROSE STREET",
         "incident_date": "2025-05-12T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1417,6 +1506,7 @@
     },
     {
         "incident_number": "25068843",
+        "address": "2309 34TH AVENUE",
         "incident_date": "2025-05-13T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1433,6 +1523,7 @@
     },
     {
         "incident_number": "25069483",
+        "address": "744 MISSOURI STREET",
         "incident_date": "2025-05-14T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1449,6 +1540,7 @@
     },
     {
         "incident_number": "25069611",
+        "address": "1280 10TH AVENUE",
         "incident_date": "2025-05-15T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1465,6 +1557,7 @@
     },
     {
         "incident_number": "25071470",
+        "address": "333 1ST STREET",
         "incident_date": "2025-05-18T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1481,6 +1574,7 @@
     },
     {
         "incident_number": "25071241",
+        "address": "1353 BUSH STREET",
         "incident_date": "2025-05-18T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1497,6 +1591,7 @@
     },
     {
         "incident_number": "25071164",
+        "address": "1397 GATEVIEW COURT, TI",
         "incident_date": "2025-05-18T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1512,23 +1607,8 @@
         "station_area": "48"
     },
     {
-        "incident_number": "25071999",
-        "incident_date": "2025-05-19T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.434112,
-                37.72264
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "45000",
-        "number_of_alarms": "1",
-        "station_area": "43"
-    },
-    {
         "incident_number": "25071645",
+        "address": "4213 26TH STREET",
         "incident_date": "2025-05-19T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1544,7 +1624,25 @@
         "station_area": "11"
     },
     {
+        "incident_number": "25071999",
+        "address": "383 PARIS STREET",
+        "incident_date": "2025-05-19T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.434112,
+                37.72264
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "45000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
         "incident_number": "25072244",
+        "address": "126 CHURCH STREET",
         "incident_date": "2025-05-20T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1561,6 +1659,7 @@
     },
     {
         "incident_number": "25072619",
+        "address": "520 JONES ST.",
         "incident_date": "2025-05-21T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1577,6 +1676,7 @@
     },
     {
         "incident_number": "25072619",
+        "address": "500 JONES STREET",
         "incident_date": "2025-05-21T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1592,23 +1692,8 @@
         "station_area": "03"
     },
     {
-        "incident_number": "25073552",
-        "incident_date": "2025-05-22T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.478126,
-                37.761296
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "30000",
-        "number_of_alarms": "1",
-        "station_area": "22"
-    },
-    {
         "incident_number": "25073273",
+        "address": "735 NAPLES STREET",
         "incident_date": "2025-05-22T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1624,7 +1709,25 @@
         "station_area": "43"
     },
     {
+        "incident_number": "25073552",
+        "address": "1417 20TH AVENUE",
+        "incident_date": "2025-05-22T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.478126,
+                37.761296
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "30000",
+        "number_of_alarms": "1",
+        "station_area": "22"
+    },
+    {
         "incident_number": "25073922",
+        "address": "33 CORTLAND AVENUE",
         "incident_date": "2025-05-23T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1641,6 +1744,7 @@
     },
     {
         "incident_number": "25073924",
+        "address": "666 ELLIS STREET",
         "incident_date": "2025-05-23T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1656,23 +1760,8 @@
         "station_area": "03"
     },
     {
-        "incident_number": "25075459",
-        "incident_date": "2025-05-26T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.40456,
-                37.721835
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "5000",
-        "number_of_alarms": "1",
-        "station_area": "44"
-    },
-    {
         "incident_number": "25075176",
+        "address": "3350 TARAVAL STREET",
         "incident_date": "2025-05-26T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1688,7 +1777,25 @@
         "station_area": "18"
     },
     {
+        "incident_number": "25075459",
+        "address": "812 GOETTINGEN STREET",
+        "incident_date": "2025-05-26T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.40456,
+                37.721835
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "44"
+    },
+    {
         "incident_number": "25075851",
+        "address": "157 RUSS STREET",
         "incident_date": "2025-05-27T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1704,23 +1811,8 @@
         "station_area": "01"
     },
     {
-        "incident_number": "25080075",
-        "incident_date": "2025-06-04T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.43757,
-                37.774285
-            ]
-        },
-        "ignition_cause": "3 Failure of equipment or heat source",
-        "estimated_property_loss": "25000",
-        "number_of_alarms": "1",
-        "station_area": "21"
-    },
-    {
         "incident_number": "25080033",
+        "address": "475 21ST AVENUE",
         "incident_date": "2025-06-04T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1736,7 +1828,25 @@
         "station_area": "14"
     },
     {
+        "incident_number": "25080075",
+        "address": "518 DIVISADERO STREET",
+        "incident_date": "2025-06-04T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.43757,
+                37.774285
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "25000",
+        "number_of_alarms": "1",
+        "station_area": "21"
+    },
+    {
         "incident_number": "25080308",
+        "address": "410 CHINA BASIN STREET",
         "incident_date": "2025-06-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1753,6 +1863,7 @@
     },
     {
         "incident_number": "25080723",
+        "address": "579 5TH AVENUE",
         "incident_date": "2025-06-06T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1768,23 +1879,8 @@
         "station_area": "31"
     },
     {
-        "incident_number": "25082216",
-        "incident_date": "2025-06-09T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.411958,
-                37.785642
-            ]
-        },
-        "ignition_cause": "1 Intentional",
-        "estimated_property_loss": "500",
-        "number_of_alarms": "1",
-        "station_area": "03"
-    },
-    {
         "incident_number": "25082459",
+        "address": "680 FLORIDA STREET",
         "incident_date": "2025-06-09T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1800,23 +1896,25 @@
         "station_area": "07"
     },
     {
-        "incident_number": "25083491",
-        "incident_date": "2025-06-11T00:00:00.000",
+        "incident_number": "25082216",
+        "address": "445 OFARRELL STREET",
+        "incident_date": "2025-06-09T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
             "type": "Point",
             "coordinates": [
-                -122.415705,
-                37.782198
+                -122.411958,
+                37.785642
             ]
         },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "400000",
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "500",
         "number_of_alarms": "1",
         "station_area": "03"
     },
     {
         "incident_number": "25083456",
+        "address": "1701-1705 YOSEMITE AVE",
         "incident_date": "2025-06-11T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1832,23 +1930,25 @@
         "station_area": "17"
     },
     {
-        "incident_number": "25083928",
-        "incident_date": "2025-06-12T00:00:00.000",
+        "incident_number": "25083491",
+        "address": "161 HYDE STREET",
+        "incident_date": "2025-06-11T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
             "type": "Point",
             "coordinates": [
-                -122.42997,
-                37.726532
+                -122.415705,
+                37.782198
             ]
         },
         "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "15000",
+        "estimated_property_loss": "400000",
         "number_of_alarms": "1",
-        "station_area": "43"
+        "station_area": "03"
     },
     {
         "incident_number": "25083908",
+        "address": "39 COOK STREET",
         "incident_date": "2025-06-12T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1864,7 +1964,25 @@
         "station_area": "10"
     },
     {
+        "incident_number": "25083928",
+        "address": "312 AVALON AVENUE",
+        "incident_date": "2025-06-12T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.42997,
+                37.726532
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "43"
+    },
+    {
         "incident_number": "25085090",
+        "address": "670 EDDY STREET",
         "incident_date": "2025-06-14T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1881,6 +1999,7 @@
     },
     {
         "incident_number": "25085359",
+        "address": "1401 MISSION STREET",
         "incident_date": "2025-06-15T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1897,6 +2016,7 @@
     },
     {
         "incident_number": "25085376",
+        "address": "6239 CALIFORNIA STREET",
         "incident_date": "2025-06-15T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1913,6 +2033,7 @@
     },
     {
         "incident_number": "25085936",
+        "address": "349 HAIGHT STREET",
         "incident_date": "2025-06-16T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1929,6 +2050,7 @@
     },
     {
         "incident_number": "25086016",
+        "address": "2828 SAN JOSE AVENUE",
         "incident_date": "2025-06-17T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1945,6 +2067,7 @@
     },
     {
         "incident_number": "25086440",
+        "address": "673 SHOTWELL STREET",
         "incident_date": "2025-06-17T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1961,6 +2084,7 @@
     },
     {
         "incident_number": "25086946",
+        "address": "1734 MASON STREET",
         "incident_date": "2025-06-18T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1977,6 +2101,7 @@
     },
     {
         "incident_number": "25087938",
+        "address": "2363 19TH AVENUE",
         "incident_date": "2025-06-20T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -1993,6 +2118,7 @@
     },
     {
         "incident_number": "25088142",
+        "address": "25 ESSEX STREET",
         "incident_date": "2025-06-21T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2009,6 +2135,7 @@
     },
     {
         "incident_number": "25088529",
+        "address": "373 ELLIS STREET",
         "incident_date": "2025-06-22T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2024,23 +2151,8 @@
         "station_area": "03"
     },
     {
-        "incident_number": "25089449",
-        "incident_date": "2025-06-23T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.411958,
-                37.785642
-            ]
-        },
-        "ignition_cause": "1 Intentional",
-        "estimated_property_loss": "5000",
-        "number_of_alarms": "1",
-        "station_area": "03"
-    },
-    {
         "incident_number": "25089327",
+        "address": "639 GEARY STREET",
         "incident_date": "2025-06-23T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2056,7 +2168,25 @@
         "station_area": "03"
     },
     {
+        "incident_number": "25089449",
+        "address": "445 OFARRELL STREET",
+        "incident_date": "2025-06-23T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.411958,
+                37.785642
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
         "incident_number": "25090507",
+        "address": "1672 HAIGHT STREET",
         "incident_date": "2025-06-26T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2073,6 +2203,7 @@
     },
     {
         "incident_number": "25092254",
+        "address": "238 EDDY STREET",
         "incident_date": "2025-06-29T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2089,6 +2220,7 @@
     },
     {
         "incident_number": "25093014",
+        "address": "1015 GEARY STREET",
         "incident_date": "2025-06-30T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2105,6 +2237,7 @@
     },
     {
         "incident_number": "25092996",
+        "address": "869 ELLIS STREET",
         "incident_date": "2025-06-30T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2121,6 +2254,7 @@
     },
     {
         "incident_number": "25094119",
+        "address": "3401 GEARY BL",
         "incident_date": "2025-07-02T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2137,6 +2271,7 @@
     },
     {
         "incident_number": "25094868",
+        "address": "3628 22ND STREET",
         "incident_date": "2025-07-04T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2153,6 +2288,7 @@
     },
     {
         "incident_number": "25094821",
+        "address": "415 JONES STREET",
         "incident_date": "2025-07-04T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2169,6 +2305,7 @@
     },
     {
         "incident_number": "25095422",
+        "address": "215 VIRGINIA AVENUE",
         "incident_date": "2025-07-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2185,6 +2322,7 @@
     },
     {
         "incident_number": "25095738",
+        "address": "1150 3RD STREET",
         "incident_date": "2025-07-06T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2201,6 +2339,7 @@
     },
     {
         "incident_number": "25098398",
+        "address": "520 SOUTH VAN NESS AVENUE",
         "incident_date": "2025-07-11T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2217,22 +2356,7 @@
     },
     {
         "incident_number": "25098334",
-        "incident_date": "2025-07-11T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.48568,
-                37.779497
-            ]
-        },
-        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
-        "estimated_property_loss": "400000",
-        "number_of_alarms": "1",
-        "station_area": "14"
-    },
-    {
-        "incident_number": "25098334",
+        "address": "526 26TH AVENUE",
         "incident_date": "2025-07-11T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2248,7 +2372,25 @@
         "station_area": "14"
     },
     {
+        "incident_number": "25098334",
+        "address": "530 26TH AVE",
+        "incident_date": "2025-07-11T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.48568,
+                37.779497
+            ]
+        },
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "400000",
+        "number_of_alarms": "1",
+        "station_area": "14"
+    },
+    {
         "incident_number": "25099081",
+        "address": "36 POND STREET",
         "incident_date": "2025-07-12T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2265,6 +2407,7 @@
     },
     {
         "incident_number": "25099531",
+        "address": "1201 GOLDEN GATE AVENUE",
         "incident_date": "2025-07-13T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2281,6 +2424,7 @@
     },
     {
         "incident_number": "25100127",
+        "address": "746 NATOMA STREET",
         "incident_date": "2025-07-15T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2296,23 +2440,8 @@
         "station_area": "01"
     },
     {
-        "incident_number": "25100176",
-        "incident_date": "2025-07-15T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.438131,
-                37.748359
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "5000",
-        "number_of_alarms": "1",
-        "station_area": "24"
-    },
-    {
         "incident_number": "25100337",
+        "address": "442 VICKSBURG STREET",
         "incident_date": "2025-07-15T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2328,7 +2457,25 @@
         "station_area": "11"
     },
     {
+        "incident_number": "25100176",
+        "address": "1035 DOUGLASS STREET",
+        "incident_date": "2025-07-15T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.438131,
+                37.748359
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "5000",
+        "number_of_alarms": "1",
+        "station_area": "24"
+    },
+    {
         "incident_number": "25100564",
+        "address": "823 GUERRERO STREET",
         "incident_date": "2025-07-16T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2345,6 +2492,7 @@
     },
     {
         "incident_number": "25101825",
+        "address": "755 MONTEREY BL",
         "incident_date": "2025-07-18T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2361,6 +2509,7 @@
     },
     {
         "incident_number": "25101817",
+        "address": "1430 SACRAMENTO STREET",
         "incident_date": "2025-07-18T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2377,6 +2526,7 @@
     },
     {
         "incident_number": "25102213",
+        "address": "1029 GIRARD RD, PRAIRIE",
         "incident_date": "2025-07-19T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2393,6 +2543,7 @@
     },
     {
         "incident_number": "25103193",
+        "address": "365 FULTON STREET",
         "incident_date": "2025-07-21T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2408,23 +2559,8 @@
         "station_area": "36"
     },
     {
-        "incident_number": "25104440",
-        "incident_date": "2025-07-24T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.475213,
-                37.783338
-            ]
-        },
-        "ignition_cause": "3 Failure of equipment or heat source",
-        "estimated_property_loss": "10000",
-        "number_of_alarms": "1",
-        "station_area": "31"
-    },
-    {
         "incident_number": "25104679",
+        "address": "2032 MISSION STREET",
         "incident_date": "2025-07-24T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2440,7 +2576,25 @@
         "station_area": "07"
     },
     {
+        "incident_number": "25104440",
+        "address": "252 16TH AVENUE",
+        "incident_date": "2025-07-24T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.475213,
+                37.783338
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "31"
+    },
+    {
         "incident_number": "25108269",
+        "address": "1064 MISSION STREET",
         "incident_date": "2025-07-31T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2457,6 +2611,7 @@
     },
     {
         "incident_number": "25109216",
+        "address": "2450 HARRISON STREET",
         "incident_date": "2025-08-02T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2473,6 +2628,7 @@
     },
     {
         "incident_number": "25109453",
+        "address": "100 VAN NESS AVENUE",
         "incident_date": "2025-08-03T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2487,39 +2643,8 @@
         "station_area": "36"
     },
     {
-        "incident_number": "25110476",
-        "incident_date": "2025-08-05T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.415004,
-                37.784298
-            ]
-        },
-        "ignition_cause": "3 Failure of equipment or heat source",
-        "estimated_property_loss": "2000",
-        "number_of_alarms": "1",
-        "station_area": "03"
-    },
-    {
-        "incident_number": "25110829",
-        "incident_date": "2025-08-05T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.506967,
-                37.774246
-            ]
-        },
-        "ignition_cause": "1 Intentional",
-        "estimated_property_loss": "1000",
-        "number_of_alarms": "1",
-        "station_area": "34"
-    },
-    {
         "incident_number": "25110729",
+        "address": "676 NOE STREET",
         "incident_date": "2025-08-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2535,7 +2660,42 @@
         "station_area": "06"
     },
     {
+        "incident_number": "25110829",
+        "address": "755 46TH AVENUE",
+        "incident_date": "2025-08-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.506967,
+                37.774246
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "34"
+    },
+    {
+        "incident_number": "25110476",
+        "address": "519 ELLIS STREET",
+        "incident_date": "2025-08-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.415004,
+                37.784298
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "2000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
         "incident_number": "25110480",
+        "address": "341 ARKANSAS STREET",
         "incident_date": "2025-08-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2552,6 +2712,7 @@
     },
     {
         "incident_number": "25110888",
+        "address": "1095 MISSION STREET",
         "incident_date": "2025-08-06T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2568,6 +2729,7 @@
     },
     {
         "incident_number": "25113525",
+        "address": "1233 CONNECTICUT STREET",
         "incident_date": "2025-08-11T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2584,6 +2746,7 @@
     },
     {
         "incident_number": "25114827",
+        "address": "319 RALSTON STREET",
         "incident_date": "2025-08-13T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2599,6 +2762,7 @@
     },
     {
         "incident_number": "25116135",
+        "address": "66 CLEARY COURT",
         "incident_date": "2025-08-16T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2614,7 +2778,25 @@
         "station_area": "38"
     },
     {
+        "incident_number": "25117075",
+        "address": "44 MCALLISTER STREET",
+        "incident_date": "2025-08-18T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.412981,
+                37.781086
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "15000",
+        "number_of_alarms": "1",
+        "station_area": "36"
+    },
+    {
         "incident_number": "25117433",
+        "address": "1627 NEWCOMB AVENUE",
         "incident_date": "2025-08-18T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2631,6 +2813,7 @@
     },
     {
         "incident_number": "25117114",
+        "address": "44 MCALLISTER STREET",
         "incident_date": "2025-08-18T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2646,23 +2829,8 @@
         "station_area": "36"
     },
     {
-        "incident_number": "25117075",
-        "incident_date": "2025-08-18T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.412981,
-                37.781086
-            ]
-        },
-        "ignition_cause": "3 Failure of equipment or heat source",
-        "estimated_property_loss": "15000",
-        "number_of_alarms": "1",
-        "station_area": "36"
-    },
-    {
         "incident_number": "25117899",
+        "address": "237 24TH AVENUE",
         "incident_date": "2025-08-19T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2679,6 +2847,7 @@
     },
     {
         "incident_number": "25118141",
+        "address": "4340 MISSION STREET",
         "incident_date": "2025-08-20T00:00:00.000",
         "primary_situation": "111 Building fire",
         "ignition_cause": "1 Intentional",
@@ -2688,6 +2857,7 @@
     },
     {
         "incident_number": "25119902",
+        "address": "2035 LYON STREET",
         "incident_date": "2025-08-23T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2704,6 +2874,7 @@
     },
     {
         "incident_number": "25120161",
+        "address": "3656 18TH STREET",
         "incident_date": "2025-08-24T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2720,6 +2891,7 @@
     },
     {
         "incident_number": "25121379",
+        "address": "124 TURK STREET",
         "incident_date": "2025-08-26T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2735,23 +2907,8 @@
         "station_area": "03"
     },
     {
-        "incident_number": "25123573",
-        "incident_date": "2025-08-30T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.418823,
-                37.783411
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "10000",
-        "number_of_alarms": "1",
-        "station_area": "03"
-    },
-    {
         "incident_number": "25123276",
+        "address": "2182 UNION STREET",
         "incident_date": "2025-08-30T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2767,7 +2924,25 @@
         "station_area": "16"
     },
     {
+        "incident_number": "25123573",
+        "address": "670 EDDY STREET",
+        "incident_date": "2025-08-30T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.418823,
+                37.783411
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "10000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
         "incident_number": "25124093",
+        "address": "3620 BALBOA STREET",
         "incident_date": "2025-08-31T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2784,6 +2959,7 @@
     },
     {
         "incident_number": "25124271",
+        "address": "2720 OAKDALE AVENUE",
         "incident_date": "2025-09-01T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2799,6 +2975,7 @@
     },
     {
         "incident_number": "25124821",
+        "address": "950 LEAVENWORTH STREET",
         "incident_date": "2025-09-02T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2815,6 +2992,7 @@
     },
     {
         "incident_number": "25125625",
+        "address": "2562 NORIEGA STREET",
         "incident_date": "2025-09-03T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2831,6 +3009,7 @@
     },
     {
         "incident_number": "25126545",
+        "address": "434 GROVE STREET",
         "incident_date": "2025-09-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2847,6 +3026,7 @@
     },
     {
         "incident_number": "25126978",
+        "address": "171 FELL STREET",
         "incident_date": "2025-09-06T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2863,6 +3043,7 @@
     },
     {
         "incident_number": "25132429",
+        "address": "1285 UNION STREET",
         "incident_date": "2025-09-17T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2879,6 +3060,7 @@
     },
     {
         "incident_number": "25134722",
+        "address": "609 BURNETT AVENUE",
         "incident_date": "2025-09-21T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2895,6 +3077,7 @@
     },
     {
         "incident_number": "25135571",
+        "address": "690 CHURCH STREET",
         "incident_date": "2025-09-23T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2911,6 +3094,7 @@
     },
     {
         "incident_number": "25138435",
+        "address": "26 CRESTLINE DRIVE",
         "incident_date": "2025-09-28T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2927,6 +3111,7 @@
     },
     {
         "incident_number": "25138975",
+        "address": "1963 GOLDEN GATE AVENUE",
         "incident_date": "2025-09-29T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2943,6 +3128,7 @@
     },
     {
         "incident_number": "25140598",
+        "address": "588 MISSION BAY BL  NORTH",
         "incident_date": "2025-10-02T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2959,6 +3145,7 @@
     },
     {
         "incident_number": "25141355",
+        "address": "171 FELL STREET",
         "incident_date": "2025-10-04T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2975,6 +3162,7 @@
     },
     {
         "incident_number": "25142177",
+        "address": "1000 SUTTER STREET",
         "incident_date": "2025-10-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -2990,6 +3178,7 @@
     },
     {
         "incident_number": "25141870",
+        "address": "350 TURK STREET",
         "incident_date": "2025-10-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3006,6 +3195,7 @@
     },
     {
         "incident_number": "25142500",
+        "address": "934 LARKIN STREET",
         "incident_date": "2025-10-06T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3022,6 +3212,7 @@
     },
     {
         "incident_number": "25143068",
+        "address": "421 LAGUNA STREET",
         "incident_date": "2025-10-07T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3038,6 +3229,7 @@
     },
     {
         "incident_number": "25143068",
+        "address": "419 LAGUNA ST.",
         "incident_date": "2025-10-07T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3054,6 +3246,7 @@
     },
     {
         "incident_number": "25143359",
+        "address": "1036 MISSION STREET",
         "incident_date": "2025-10-08T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3069,16 +3262,8 @@
         "station_area": "01"
     },
     {
-        "incident_number": "25144017",
-        "incident_date": "2025-10-09T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
-        "estimated_property_loss": "50000",
-        "number_of_alarms": "1",
-        "station_area": "32"
-    },
-    {
         "incident_number": "25143964",
+        "address": "1238 PAGE STREET",
         "incident_date": "2025-10-09T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3094,7 +3279,18 @@
         "station_area": "21"
     },
     {
+        "incident_number": "25144017",
+        "address": "625 HOLLY PARK",
+        "incident_date": "2025-10-09T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "ignition_cause": "0 Cause, other (Only used for additional exposures)",
+        "estimated_property_loss": "50000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
         "incident_number": "25145062",
+        "address": "2587 22ND AVENUE",
         "incident_date": "2025-10-11T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3111,6 +3307,7 @@
     },
     {
         "incident_number": "25146981",
+        "address": "2540 CHESTNUT STREET",
         "incident_date": "2025-10-15T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3127,6 +3324,7 @@
     },
     {
         "incident_number": "25148037",
+        "address": "CEDAR STREET",
         "incident_date": "2025-10-17T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3143,6 +3341,7 @@
     },
     {
         "incident_number": "25152289",
+        "address": "520 SOUTH VAN NESS AVENUE",
         "incident_date": "2025-10-25T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3159,6 +3358,7 @@
     },
     {
         "incident_number": "25154188",
+        "address": "425 EDDY STREET",
         "incident_date": "2025-10-29T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3175,6 +3375,7 @@
     },
     {
         "incident_number": "25154614",
+        "address": "112 GRIJALVA DRIVE",
         "incident_date": "2025-10-29T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3191,6 +3392,7 @@
     },
     {
         "incident_number": "25154687",
+        "address": "GALVEZ AVENUE",
         "incident_date": "2025-10-30T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3206,6 +3408,7 @@
     },
     {
         "incident_number": "25155644",
+        "address": "1550 FILBERT STREET",
         "incident_date": "2025-10-31T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3221,23 +3424,8 @@
         "station_area": "16"
     },
     {
-        "incident_number": "25156766",
-        "incident_date": "2025-11-03T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.453631,
-                37.787971
-            ]
-        },
-        "ignition_cause": "2 Unintentional",
-        "estimated_property_loss": "0",
-        "number_of_alarms": "1",
-        "station_area": "10"
-    },
-    {
         "incident_number": "25157077",
+        "address": "53 COLTON STREET",
         "incident_date": "2025-11-03T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3253,7 +3441,25 @@
         "station_area": "36"
     },
     {
+        "incident_number": "25156766",
+        "address": "335 SPRUCE STREET",
+        "incident_date": "2025-11-03T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.453631,
+                37.787971
+            ]
+        },
+        "ignition_cause": "2 Unintentional",
+        "estimated_property_loss": "0",
+        "number_of_alarms": "1",
+        "station_area": "10"
+    },
+    {
         "incident_number": "25158680",
+        "address": "159 SAN CARLOS STREET",
         "incident_date": "2025-11-06T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3270,6 +3476,7 @@
     },
     {
         "incident_number": "25158646",
+        "address": "114 CAMBRIDGE STREET",
         "incident_date": "2025-11-06T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3286,6 +3493,7 @@
     },
     {
         "incident_number": "25158990",
+        "address": "800-820 PRESIDIO AVENUE",
         "incident_date": "2025-11-07T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3302,6 +3510,7 @@
     },
     {
         "incident_number": "25159896",
+        "address": "1015 GEARY STREET",
         "incident_date": "2025-11-09T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3318,6 +3527,7 @@
     },
     {
         "incident_number": "25159911",
+        "address": "375 TERRY A FRANCOIS BL",
         "incident_date": "2025-11-09T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3334,6 +3544,7 @@
     },
     {
         "incident_number": "25161618",
+        "address": "220 HYDE STREET",
         "incident_date": "2025-11-12T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3350,6 +3561,7 @@
     },
     {
         "incident_number": "25164301",
+        "address": "1064 MISSION STREET",
         "incident_date": "2025-11-17T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3366,6 +3578,7 @@
     },
     {
         "incident_number": "25166217",
+        "address": "65 WATCHMAN WAY",
         "incident_date": "2025-11-21T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3382,6 +3595,7 @@
     },
     {
         "incident_number": "25170552",
+        "address": "684 ELLIS STREET",
         "incident_date": "2025-12-01T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3398,6 +3612,7 @@
     },
     {
         "incident_number": "25171400",
+        "address": "30 LOOMIS STREET",
         "incident_date": "2025-12-02T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3414,6 +3629,7 @@
     },
     {
         "incident_number": "25171806",
+        "address": "267 LONDON STREET",
         "incident_date": "2025-12-03T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3429,23 +3645,8 @@
         "station_area": "43"
     },
     {
-        "incident_number": "25173077",
-        "incident_date": "2025-12-05T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.418357,
-                37.744828
-            ]
-        },
-        "ignition_cause": "3 Failure of equipment or heat source",
-        "estimated_property_loss": "350000",
-        "number_of_alarms": "1",
-        "station_area": "32"
-    },
-    {
         "incident_number": "25172884",
+        "address": "33 BANBURY DR.",
         "incident_date": "2025-12-05T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3461,7 +3662,25 @@
         "station_area": "19"
     },
     {
+        "incident_number": "25173077",
+        "address": "34 LUNDYS LANE",
+        "incident_date": "2025-12-05T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.418357,
+                37.744828
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "350000",
+        "number_of_alarms": "1",
+        "station_area": "32"
+    },
+    {
         "incident_number": "25173535",
+        "address": "1219 SAN BRUNO AVENUE",
         "incident_date": "2025-12-06T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3477,23 +3696,8 @@
         "station_area": "37"
     },
     {
-        "incident_number": "25174016",
-        "incident_date": "2025-12-07T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.414247,
-                37.784178
-            ]
-        },
-        "ignition_cause": "3 Failure of equipment or heat source",
-        "estimated_property_loss": "1000",
-        "number_of_alarms": "1",
-        "station_area": "03"
-    },
-    {
         "incident_number": "25173654",
+        "address": "09 HARBOR ROAD",
         "incident_date": "2025-12-07T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3509,7 +3713,25 @@
         "station_area": "17"
     },
     {
+        "incident_number": "25174016",
+        "address": "346 LEAVENWORTH STREET",
+        "incident_date": "2025-12-07T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.414247,
+                37.784178
+            ]
+        },
+        "ignition_cause": "3 Failure of equipment or heat source",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "03"
+    },
+    {
         "incident_number": "25176296",
+        "address": "1024 CHESTNUT STREET",
         "incident_date": "2025-12-12T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3526,6 +3748,7 @@
     },
     {
         "incident_number": "25176304",
+        "address": "50 GOLDEN GATE AVENUE",
         "incident_date": "2025-12-12T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3542,6 +3765,7 @@
     },
     {
         "incident_number": "25176457",
+        "address": "261 NIAGARA AVENUE",
         "incident_date": "2025-12-12T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3558,6 +3782,7 @@
     },
     {
         "incident_number": "25176965",
+        "address": "739 IRVING STREET",
         "incident_date": "2025-12-13T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3574,6 +3799,7 @@
     },
     {
         "incident_number": "25177574",
+        "address": "422 PIERCE STREET",
         "incident_date": "2025-12-14T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3590,6 +3816,7 @@
     },
     {
         "incident_number": "25177743",
+        "address": "320 WINFIELD STREET",
         "incident_date": "2025-12-14T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3605,23 +3832,8 @@
         "station_area": "32"
     },
     {
-        "incident_number": "25179433",
-        "incident_date": "2025-12-17T00:00:00.000",
-        "primary_situation": "111 Building fire",
-        "point": {
-            "type": "Point",
-            "coordinates": [
-                -122.40527,
-                37.783473
-            ]
-        },
-        "ignition_cause": "1 Intentional",
-        "estimated_property_loss": "1000",
-        "number_of_alarms": "1",
-        "station_area": "01"
-    },
-    {
         "incident_number": "25179395",
+        "address": "65 CAMBON DRIVE",
         "incident_date": "2025-12-17T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3637,7 +3849,25 @@
         "station_area": "19"
     },
     {
+        "incident_number": "25179433",
+        "address": "833 MISSION STREET",
+        "incident_date": "2025-12-17T00:00:00.000",
+        "primary_situation": "111 Building fire",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -122.40527,
+                37.783473
+            ]
+        },
+        "ignition_cause": "1 Intentional",
+        "estimated_property_loss": "1000",
+        "number_of_alarms": "1",
+        "station_area": "01"
+    },
+    {
         "incident_number": "25181139",
+        "address": "6 SAINT LOUIS AL",
         "incident_date": "2025-12-20T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3654,6 +3884,7 @@
     },
     {
         "incident_number": "25181239",
+        "address": "1261 THOMAS AVENUE",
         "incident_date": "2025-12-20T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3670,6 +3901,7 @@
     },
     {
         "incident_number": "25181591",
+        "address": "2751 MCALLISTER STREET",
         "incident_date": "2025-12-21T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3686,6 +3918,7 @@
     },
     {
         "incident_number": "25183504",
+        "address": "225-227 COTTER STREET",
         "incident_date": "2025-12-24T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3702,6 +3935,7 @@
     },
     {
         "incident_number": "25184176",
+        "address": "43 BROOKDALE AVENUE",
         "incident_date": "2025-12-25T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {
@@ -3718,6 +3952,7 @@
     },
     {
         "incident_number": "26001419",
+        "address": "1875 MARIN STREET",
         "incident_date": "2026-01-03T00:00:00.000",
         "primary_situation": "111 Building fire",
         "point": {

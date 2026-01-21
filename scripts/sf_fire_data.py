@@ -14,8 +14,8 @@ DATASET_ID = "wr8u-xric"
 DOMAIN = "data.sfgov.org"
 
 # Columns to keep for the Digital Twin simulation
-# Fetch: ID, Date, Situation (for 111 check), Location (Point), Ignition cause, and Loss
-SELECT_COLS = "incident_number, incident_date, primary_situation, point, ignition_cause, estimated_property_loss, number_of_alarms, station_area"
+# Fetch: ID, Address, Date, Situation (for 111 check), Location (Point), Ignition cause, and Loss
+SELECT_COLS = "incident_number, address, incident_date, primary_situation, point, ignition_cause, estimated_property_loss, number_of_alarms, station_area"
 
 
 def ensure_folder_exists():
@@ -115,7 +115,6 @@ def fetch_and_update():
             existing_data.extend(results)
 
         print("Data fetched")
-        return True
 
     except Exception as e:
         print(f"[ERROR] API Query failed: {e}")
