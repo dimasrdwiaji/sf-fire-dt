@@ -5,3 +5,5 @@
 # API
 .streamlit/
 *.toml
+
+cache/
