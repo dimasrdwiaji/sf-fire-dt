@@ -515,7 +515,7 @@ with col_metrics:
     st.metric(label="Est. Property Loss", value=f"${total_loss:,.0f}")
 
 with col_logistics:
-    st.markdown("##### Simulated Response")
+    st.markdown("##### Simulation Response")
 
     @st.fragment(run_every=2)
     def show_logistics():
