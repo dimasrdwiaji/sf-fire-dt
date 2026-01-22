@@ -5,3 +5,7 @@
 # API
 .streamlit/
 *.toml
+
+cache/
+__pycache__/
+*.pyc

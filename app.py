@@ -7,16 +7,18 @@ import os
 from shapely.geometry import Point
 from scripts.sf_fire_data import fetch_and_update
 import datetime as dt
+import requests
 
 # --- CONFIGURATION ---
 DATA_FOLDER = "data"
-# File paths
 INCIDENT_FILE = os.path.join(DATA_FOLDER, "sf_fire_data.json")
 BUILDINGS_FILE = os.path.join(DATA_FOLDER, "sf_buildings.gpkg")
 STATIONS_FILE = os.path.join(DATA_FOLDER, "fire_stations.geojson")
-
 FETCH_SCRIPT = "sf_fire_data.py"  # Ensure this matches your script name exactly
 SF_COORDINATES = [37.7749, -122.4194]  # Initial view, center of San Francisco
+API_URL = "http://127.0.0.1:8000"  # FastAPI backend URL
+
+# Mapbox API Key
 MAPBOX_API_KEY = st.secrets["MAPBOX_ACCESS_KEY"]
 os.environ["MAPBOX_API_KEY"] = MAPBOX_API_KEY
 
@@ -274,7 +276,9 @@ filtered_incidents["station_name"] = None
 # Prepare tooltip
 tooltip = {
     "html": """
+            <b>FIRE STATION</b><br/>
             <b>Station:</b> {station_name}<br/>
+            <b>FIRE INCIDENT</b><br/>
             <b>Adress:</b> {address}<br/>
             <b>Incident date:</b> {date_str}<br/>
             <b>Situation:</b> {primary_situation}<br/>
@@ -335,8 +339,6 @@ with col2:
             x_label="Ignition cause",
             y_label="Count",
             sort="-count",
-            height="stretch",
-            width="content",
             color="#800000",
         )  # Maroon color to match map
     else:
