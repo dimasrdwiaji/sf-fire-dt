@@ -13,7 +13,7 @@ MAPBOX_KEY = st.secrets[
     "MAPBOX_ACCESS_KEY"
 ]  # Ensure this is in .streamlit/secrets.toml
 
-st.title("🚒 SF Fire Response Simulator")
+st.title("San Francisco Fire Response Simulator")
 
 # --- LAYOUT ---
 col_map, col_widget = st.columns([3, 1])
@@ -123,7 +123,9 @@ with col_widget:
 
             else:
                 st.info("System Standby")
-                st.caption("Select a point on the map to calculate response metrics.")
+                st.caption(
+                    "Select a point on the map to calculate distance and estimated travel time."
+                )
 
         except Exception:
             st.error("Engine Offline")

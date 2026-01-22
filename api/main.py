@@ -21,20 +21,20 @@ state = {"graph": None, "stations": None, "latest_result": None}
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    print("🚀 Starting Digital Twin Engine (WGS84 Mode)...")
+    print("Loading files in WGS84...")
 
     # 1. Load Fire Stations
     if os.path.exists(STATIONS_FILE):
         state["stations"] = gpd.read_file(STATIONS_FILE).to_crs(epsg=4326)
-        print(f"✅ Stations loaded.")
+        print(f"Stations loaded.")
 
     # 2. Load Street Network
     if os.path.exists(GRAPH_FILE):
-        print(f"📂 Loading street network from {GRAPH_FILE}...")
+        print(f"Loading street network from {GRAPH_FILE}...")
         G = ox.load_graphml(GRAPH_FILE)
 
         # --- MANUAL SPEED/TIME CALCULATION ---
-        print("⚙️  Validating edge weights...")
+        print("Validating edge weights...")
         count = 0
         for u, v, k, data in G.edges(keys=True, data=True):
             count += 1
@@ -53,7 +53,7 @@ async def lifespan(app: FastAPI):
         print(f"✅ Processed {count} edges. Graph ready.")
         state["graph"] = G
     else:
-        print(f"❌ CRITICAL: Graph file not found at {GRAPH_FILE}")
+        print(f"Graph file not found at {GRAPH_FILE}")
 
     yield
     state["graph"] = None
@@ -77,7 +77,7 @@ def parse_speed(raw_speed) -> float:
     if isinstance(raw_speed, (int, float)):
         return float(raw_speed)
 
-    # It's a string - parse it
+    # Parse string
     raw_speed = str(raw_speed).strip().lower()
 
     try:
