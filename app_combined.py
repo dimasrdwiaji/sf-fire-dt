@@ -1,3 +1,4 @@
+# To run, use: streamlit run app_combined.py
 import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
@@ -8,27 +9,36 @@ import requests
 from shapely.geometry import Point
 from scripts.sf_fire_data import fetch_and_update
 
-# --- CONFIGURATION ---
+# ----------------------------
+# CONFIGURATION
+# ----------------------------
 DATA_FOLDER = "data"
+# File paths
 INCIDENT_FILE = os.path.join(DATA_FOLDER, "sf_fire_data.json")
 BUILDINGS_FILE = os.path.join(DATA_FOLDER, "sf_buildings.gpkg")
 STATIONS_FILE = os.path.join(DATA_FOLDER, "fire_stations.geojson")
+# Default coordinates for map view (center of city)
 SF_COORDINATES = [-122.4194, 37.7749]
+# FastAPI coordinate
 API_URL = "http://127.0.0.1:8000"
-
+# Path to mapbox access key
 MAPBOX_KEY = st.secrets["MAPBOX_ACCESS_KEY"]
-
+# Configure streamlit page and title
 st.set_page_config(layout="wide", page_title="SF Fire Digital Twin")
 
 
-# --- LOAD DATA ---
+# ----------------------------
+# LOAD DATA
+# ----------------------------
 @st.cache_data
 def load_incidents():
     """Load and clean fire incident data."""
+    # Check file existence, if doesn't fetch and update
     if not os.path.exists(INCIDENT_FILE):
         fetch_and_update()
 
     try:
+        # Load and convert to df
         with open(INCIDENT_FILE, "r") as f:
             raw_incidents = json.load(f)
         df_inc = pd.DataFrame(raw_incidents)
@@ -38,6 +48,7 @@ def load_incidents():
     if df_inc.empty or "point" not in df_inc.columns:
         return gpd.GeoDataFrame()
 
+    # Get coordinates
     def get_pt(x):
         if isinstance(x, dict) and "coordinates" in x:
             return x["coordinates"]
@@ -47,8 +58,11 @@ def load_incidents():
     df_inc["lon"] = [c[0] for c in coords]
     df_inc["lat"] = [c[1] for c in coords]
     df_inc = df_inc.dropna(subset=["lon", "lat"])
-    df_inc["incident_date"] = pd.to_datetime(df_inc["incident_date"])
+    df_inc["incident_date"] = pd.to_datetime(
+        df_inc["incident_date"]
+    )  # convert date from string to datetime format
 
+    # Convert df to gdf
     gdf_incidents = gpd.GeoDataFrame(
         df_inc,
         geometry=[Point(xy) for xy in zip(df_inc.lon, df_inc.lat)],
@@ -57,6 +71,7 @@ def load_incidents():
     return gdf_incidents
 
 
+# Load and cache data for lighter load
 @st.cache_data
 def load_buildings_and_stations():
     """Load buildings and stations data."""
@@ -103,7 +118,7 @@ def prepare_geojson_data(
         ]
         if len(match_data) > 0:
             row = match_data.iloc[0]
-            # Handle NaN and mixed type values safely
+            # Handle NaN and mixed type values
             loss_val = row.get("estimated_property_loss", 0)
             try:
                 loss_val = float(loss_val) if not pd.isna(loss_val) else 0
@@ -174,7 +189,7 @@ def prepare_geojson_data(
 
     geojson = {"type": "FeatureCollection", "features": features}
 
-    # Calculate metrics - ensure numeric conversion
+    # Calculate metrics - ensure numeric conversion, because some are numbers, or strings, or has currency
     loss_series = pd.to_numeric(
         filtered_incidents["estimated_property_loss"], errors="coerce"
     ).fillna(0)
@@ -187,9 +202,12 @@ def prepare_geojson_data(
     return geojson, total_loss, incident_count, cause_counts
 
 
-# --- MAIN UI ---
+# ----------------------------
+# UI
+# ----------------------------
 st.title("San Francisco Fire Digital Twin")
 
+# Tell user data is being loaded
 with st.spinner("Loading data..."):
     gdf_buildings, gdf_stations = load_buildings_and_stations()
     gdf_incidents = load_incidents()
@@ -197,7 +215,7 @@ with st.spinner("Loading data..."):
 if gdf_buildings is None:
     st.stop()
 
-# Date range
+# Configure date range slider
 min_date = gdf_incidents["incident_date"].min().date()
 max_date = gdf_incidents["incident_date"].max().date()
 
@@ -215,14 +233,17 @@ geojson_data, total_loss, incident_count, cause_counts = prepare_geojson_data(
 # Escape JSON for JS
 geojson_str = json.dumps(geojson_data).replace("'", "\\'").replace("</", "<\\/")
 
-# --- MAPBOX GL JS MAP ---
+# ----------------------------
+# MAPBOX GL JS MAP
+# ----------------------------
+# Not really a good way of doing it, better prepare in HTML file
 map_html = f"""
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
-    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet"> 
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
     <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.4.0/mapbox-gl-draw.css" type="text/css">
     <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.4.0/mapbox-gl-draw.js"></script>
@@ -493,11 +514,15 @@ map_html = f"""
 # Render map
 components.html(map_html, height=580)
 
-# --- BOTTOM PANEL: Date Slider + Live Logistics ---
+# ----------------------------
+# BOTTOM PANEL: date slider, summary, and fire response simulation
+# ----------------------------
 st.markdown("---")
 
+# Build empty column
 col_slider, col_metrics, col_logistics = st.columns([1, 1, 2])
 
+# Fill column
 with col_slider:
     st.markdown("##### Filter by Date")
     selected_date = st.slider(
@@ -520,9 +545,11 @@ with col_logistics:
     @st.fragment(run_every=2)
     def show_logistics():
         try:
+            # Request data from backend via FastAPI
             resp = requests.get(f"{API_URL}/widget/latest", timeout=2)
             data = resp.json()
 
+            # Process if data exist
             if data and "station_name" in data:
                 st.metric(label="Dispatched", value=data["station_name"])
                 time_val = data.get("travel_time_min", 0)
@@ -545,11 +572,15 @@ with col_logistics:
 
     show_logistics()
 
-# --- EXPANDABLE SECTIONS ---
+# ----------------------------
+# EXPANDABLE SECTIONS (ignition cause chart and raw data)
+# ----------------------------
 st.markdown("---")
 
+# Build empty column
 col_chart, col_data = st.columns(2)
 
+# Fill column
 with col_chart:
     with st.expander("Top Ignition Causes", expanded=True):
         if cause_counts:

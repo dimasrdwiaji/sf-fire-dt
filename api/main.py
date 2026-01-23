@@ -1,3 +1,4 @@
+# To run, use: uvicorn api.main:app --reload
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
@@ -9,16 +10,23 @@ import osmnx as ox
 import networkx as nx
 import time
 
-# --- CONFIGURATION ---
+# ----------------------------
+# CONFIGURATION
+# ----------------------------
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_FOLDER = os.path.join(BASE_DIR, "data")
 STATIONS_FILE = os.path.join(DATA_FOLDER, "fire_stations.geojson")
 GRAPH_FILE = os.path.join(DATA_FOLDER, "sf_drive_graph.graphml")
 
-# --- GLOBAL STATE ---
+# ----------------------------
+# GLOBAL STATE
+# ----------------------------
 state = {"graph": None, "stations": None, "latest_result": None}
 
 
+# ----------------------------
+# Loading and processing data
+# ----------------------------
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     print("Loading files in WGS84...")
@@ -33,16 +41,17 @@ async def lifespan(app: FastAPI):
         print(f"Loading street network from {GRAPH_FILE}...")
         G = ox.load_graphml(GRAPH_FILE)
 
-        # --- MANUAL SPEED/TIME CALCULATION ---
+        # MANUAL SPEED/TIME CALCULATION
         print("Validating edge weights...")
         count = 0
         for u, v, k, data in G.edges(keys=True, data=True):
             count += 1
             length_m = data.get("length", 0)
 
-            # --- FIX: Parse maxspeed string ---
+            # Parse maxspeed
             speed_kph = parse_speed(data.get("maxspeed", None))
 
+            # Convert to meter per second
             speed_mps = speed_kph / 3.6
 
             if speed_mps > 0:
@@ -50,7 +59,8 @@ async def lifespan(app: FastAPI):
             else:
                 data["travel_time"] = 0
 
-        print(f"✅ Processed {count} edges. Graph ready.")
+        # Check if network is correctly loaded
+        print(f"Processed {count} edges. Graph ready.")
         state["graph"] = G
     else:
         print(f"Graph file not found at {GRAPH_FILE}")
@@ -109,11 +119,13 @@ app.add_middleware(
 )
 
 
+# Define request
 class PointRequest(BaseModel):
     lat: float
     lon: float
 
 
+# Process after point is received
 @app.post("/calculate-response")
 def calculate_response(req: PointRequest):
     G = state["graph"]
@@ -122,13 +134,13 @@ def calculate_response(req: PointRequest):
     if G is None or stations is None:
         raise HTTPException(status_code=503, detail="System not ready")
 
-    # --- 1. FIND NEAREST NODE TO INCIDENT ---
+    # 1. Find nearest node to incident location
     target_node = ox.distance.nearest_nodes(G, X=req.lon, Y=req.lat)
 
-    # --- 2. FIND NEAREST STATION ---
+    # 2. Find nearest fire station
     req_point = gpd.GeoDataFrame(geometry=[Point(req.lon, req.lat)], crs="EPSG:4326")
 
-    # Project BOTH to meters for accurate nearest calculation
+    # Project data to meters for accurate nearest calculation
     req_point_proj = req_point.to_crs(epsg=32610)
     stations_proj = stations.to_crs(epsg=32610)
 
@@ -136,19 +148,19 @@ def calculate_response(req: PointRequest):
         req_point_proj, stations_proj, distance_col="dist_m"
     ).iloc[0]
 
-    # Get station name and INDEX
+    # Get station name and index
     station_name = nearest_result["name"]
     station_idx = nearest_result["index_right"]  # <-- Key fix!
 
-    # --- 3. GET THE ACTUAL STATION GEOMETRY (from original dataframe) ---
+    # 3. Get station geometry (from original dataframe) ---
     station_geom = stations.loc[station_idx].geometry  # Back in WGS84
 
-    # --- 4. FIND NEAREST NODE TO STATION ---
+    # 4. Find nearest node to station
     station_node = ox.distance.nearest_nodes(G, X=station_geom.x, Y=station_geom.y)
 
-    print(f"DEBUG: Incident node={target_node}, Station node={station_node}")
+    print(f"Debug: Incident node={target_node}, Station node={station_node}")
 
-    # --- 5. CALCULATE ROUTE ---
+    # 4. Calculate shortest path based on travel time
     try:
         travel_time_seconds = nx.shortest_path_length(
             G, station_node, target_node, weight="travel_time"
@@ -157,6 +169,7 @@ def calculate_response(req: PointRequest):
             G, station_node, target_node, weight="length"
         )
 
+        # Structure result
         result = {
             "status": "success",
             "incident_loc": [req.lat, req.lon],
