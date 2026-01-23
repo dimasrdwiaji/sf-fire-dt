@@ -25,7 +25,7 @@ This project is a 3D digital twin application for visualizing and analyzing fire
 
 ### Data Sources
 
-- **Fire Incident Data**: [San Francisco Open Data Portal](https://data.sfgov.org) - updated daily
+- **Fire Incident Data**: [San Francisco Open Data Portal](https://data.sfgov.org/Public-Safety/Fire-Incidents/wr8u-xric/about_data) - updated daily
 - **Road Network**: OpenStreetMap (OSM). Drivable network only.
 - **Building Polygons**: OpenStreetMap (OSM) - San Francisco area
 
@@ -33,7 +33,7 @@ This project is a 3D digital twin application for visualizing and analyzing fire
 
 ### 1. Historical Fire Incident Data Pipeline
 
-The system connects to the Socrata API ([data.sfgov.org](https://data.sfgov.org)) to fetch the fire incidents dataset with the following parameters:
+The system connects to the Socrata API ([data.sfgov.org](https://data.sfgov.org/Public-Safety/Fire-Incidents/wr8u-xric/about_data)) to fetch the fire incidents dataset with the following parameters:
 
 - **Filter**: Building fires only (excludes other emergency medical dispatches)
 - **Time Range**: Last 365 days
@@ -118,7 +118,7 @@ This limitation prevented implementation of the original real-time simulation de
 
 ```bash
 # Clone the repository
-git clone [repository-url](https://github.com/dimasrdwiaji/sf-fire-dt)
+git clone [https://github.com/dimasrdwiaji/sf-fire-dt]
 
 # Install dependencies
 pip install streamlit sodapy fastapi uvicorn osmnx geopandas mapbox-gl
@@ -137,7 +137,7 @@ streamlit run app.py
 
 ## Future Improvements
 
-- Implement session state management to enable real-time fire simulation
+- Implement session state management to gienable real-time fire simulation
 - Optimize data loading to reduce rerun times
 - Add caching mechanisms for building and network datasets
 - Implement multi-fire tracking and resource allocation analysis
