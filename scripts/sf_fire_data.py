@@ -4,7 +4,9 @@ import pandas as pd
 from sodapy import Socrata
 from datetime import datetime, timedelta
 
-# --- CONFIGURATION ---
+# ----------------------------
+# CONFIGURATION
+# ----------------------------
 DATA_FOLDER = "data"
 FILENAME = "sf_fire_data.json"
 FILE_PATH = os.path.join(DATA_FOLDER, FILENAME)
@@ -18,6 +20,10 @@ DOMAIN = "data.sfgov.org"
 SELECT_COLS = "incident_number, address, incident_date, primary_situation, point, ignition_cause, estimated_property_loss, number_of_alarms, station_area"
 
 
+# ----------------------------
+# DATA FETCHING AND PROCESSING
+# ----------------------------
+# Check and create data folder
 def ensure_folder_exists():
     """Creates the data directory if it doesn't exist."""
     if not os.path.exists(DATA_FOLDER):
@@ -25,6 +31,7 @@ def ensure_folder_exists():
         print(f"[INFO] Created folder: {DATA_FOLDER}")
 
 
+# Load existing data (if available)
 def load_existing_data():
     """Loads existing JSON data if file exists; returns empty list otherwise."""
     if os.path.exists(FILE_PATH):
@@ -39,6 +46,7 @@ def load_existing_data():
     return []
 
 
+# Get start date for querying new data
 def get_start_date(existing_data):
     """
     Determines the start date for the API query.
@@ -68,6 +76,7 @@ def get_start_date(existing_data):
         return one_year_ago.strftime("%Y-%m-%dT%H:%M:%S")
 
 
+# Remove old data
 def clean_old_records(data):
     """Removes records older than 365 days to keep the dataset lightweight."""
     cutoff_date = (datetime.now() - timedelta(days=365)).strftime("%Y-%m-%dT%H:%M:%S")
@@ -83,6 +92,7 @@ def clean_old_records(data):
     return filtered_data
 
 
+# Main fetch and update function
 def fetch_and_update():
     ensure_folder_exists()
     existing_data = load_existing_data()

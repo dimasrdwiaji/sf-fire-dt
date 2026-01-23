@@ -8,11 +8,16 @@ import warnings
 # Suppress warnings about projection
 warnings.filterwarnings("ignore")
 
-# --- CONFIGURATION ---
+# ----------------------------
+# CONFIGURATION
+# ----------------------------
 DATA_FOLDER = "data"
 PLACE_NAME = "San Francisco, California, USA"
 
 
+# ----------------------------
+# Processing height for buildings (fetched OSM data is 2D)
+# ----------------------------
 def process_height(row):
     """
     Get building height for 3D visualization.
@@ -46,13 +51,16 @@ def process_height(row):
         return random.uniform(6, 12)
 
 
+# ----------------------------
+# Fetch building and road network
+# ----------------------------
 def fetch_static_data():
     if not os.path.exists(DATA_FOLDER):
         os.makedirs(DATA_FOLDER)
 
     print(f"Area: {PLACE_NAME}")
 
-    # --- 1. DOWNLOAD ROAD NETWORK ---
+    # 1. Road network
     # We download the 'drive' network for the whole city.
     print("Downloading drivable road network...")
     try:
@@ -67,7 +75,7 @@ def fetch_static_data():
     except Exception as e:
         print(f"[ERROR] Road fetch failed: {e}")
 
-    # --- 2. DOWNLOAD FIRE STATIONS ---
+    # 2. Fire stations
     print("Downloading Fire Stations...")
     try:
         tags_stations = {"amenity": "fire_station"}
@@ -90,7 +98,7 @@ def fetch_static_data():
     except Exception as e:
         print(f"[ERROR] Station fetch failed: {e}")
 
-    # --- 3. DOWNLOAD BUILDINGS ---
+    # 3. Buildings
     print("Downloading Buildings...")
     try:
         tags_buildings = {"building": True}
